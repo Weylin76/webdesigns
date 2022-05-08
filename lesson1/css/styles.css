@@ -17,7 +17,7 @@ header, main, body, footer {
 
 header, footer {
     margin: 1rem auto;
-    border: 2px soild gray;
+    border: 1px soild gray;
     padding: .5rem;
     background-color: rgb(28, 129, 192);
     border-radius: 1.0rem;
