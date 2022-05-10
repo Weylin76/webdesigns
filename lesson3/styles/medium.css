@@ -1,15 +1,18 @@
-@media (min-width: 34em) {
+@media (min-width: 36em) {
     .site-subgroup{
         max-width: 100%;
-        /* grid-column: 1/3; */
     }
-	main {grid-template-rows: 1fr 1fr;
+	main {
+        grid-template-rows: 1fr 1fr;
         display: flex;
-    flex-direction: row;}
+        flex-direction: row;
+    }
+
     #logo{
         grid-column:2;
         grid-row:2;
     }
+
     nav ul{
         list-style-type: none;
         display: flex;
@@ -22,4 +25,9 @@
         color: white;
         background-color: black;
       }
-   
+    #container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+}
