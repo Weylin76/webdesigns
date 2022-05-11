@@ -30,4 +30,13 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
     }
+    #color-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    #color-grid section{
+        max-width: 200px;
+        /* padding: 10px; */
+    }
 }

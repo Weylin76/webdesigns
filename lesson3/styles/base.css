@@ -20,74 +20,90 @@ nav ul{
     line-height: 2.5rem;
   }
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
-}
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
 
-body{
-    font-size: 16px;
-    margin: auto;
-    font-family: 'Courier New', Courier, monospace;
-}
+    body{
+        font-size: 16px;
+        margin: auto;
+        font-family: 'Courier New', Courier, monospace;
+    }
 
-main, body, footer{
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 15px;
-}
-header{
-    background-color: rgba(227, 45, 26);
-    color: rgb(255, 255, 255);
-    border-radius: 1rem;
-    text-align: center;
-}
-h1{
-    font-family: 'Oleo Script', cursive;
-    font-size: 3rem;
-    padding: 15px;
-}
-h2 {
-    font-family: 'Oleo Script', cursive;
-    font-size: 2rem;
-    padding: 3.5%;
-}
-h3{
-    font-weight: bold;
-}
-main{
-    grid-template-columns: 1fr;
-}  
+    main, body, footer{
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    header{
+        background-color: rgba(227, 45, 26);
+        color: rgb(255, 255, 255);
+        border-radius: 1rem;
+        text-align: center;
+    }
+    h1{
+        font-family: 'Oleo Script', cursive;
+        font-size: 3rem;
+        padding: 15px;
+    }
+    h2 {
+        font-family: 'Oleo Script', cursive;
+        font-size: 2rem;
+        padding: 3.5%;
+    }
+    h3{
+        font-weight: bold;
+    }
+    main{
+        grid-template-columns: 1fr;
+    }  
 
-#logo{
-    max-width: 200px;
-    border-radius: 10%;
-    border-style: double;
-    grid-template-columns: 1;
-    grid-template-rows: 1;
-    margin: 10px;
-}
-footer{
-    background-color: black;
-    color: white;
-    border-radius: 1rem;
-    text-align: center;
-}
+    #logo{
+        max-width: 200px;
+        border-radius: 10%;
+        border-style: double;
+        margin: 10px;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        border-radius: 1rem;
+        text-align: center;
+    }
 
-.target-li{
-    margin-left: 7%;
-}
+    .target-li{
+        margin-left: 7%;
+    }
 
-.persona {
-    background-color: grey;
-    border-radius: 5rem;
-}
+    .persona {
+        background-color: grey;
+        border-radius: 5rem;
+    }
 
-section{
-    border: 1px solid black;
-    display: block;
-    flex-wrap: wrap;
-}
-p, div, h1, h2, h3, h4{
-    padding: 0 10px 0 10px;
-}
+    section{
+        border: 1px solid black;
+        display: block;
+        flex-wrap: wrap;
+    }
+    p, div, h1, h2, h3, h4{
+        padding: 0 10px 0 10px;
+    }
+    .white-red{
+        color: white;
+        background-color: rgba(227, 45, 26);
+    }
+    .black-white{
+        color: black;
+        background-color: white;
+    }
+    .white-black{
+        color: white;
+        background-color: black;
+    }
+    #text-title{
+        font-family: 'Oleo Script', cursive;
+    }
+    #text-paragragh{
+        font-family: 'Courier New', Courier, monospace;
+    }
