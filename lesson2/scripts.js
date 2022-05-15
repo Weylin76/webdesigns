@@ -1,6 +1,6 @@
 const todaysdate = new Date();
 const month = todaysdate.getMonth()+1;
-const day = todaysdate.getDay()+1;
+const day = todaysdate.getDate();
 const year = todaysdate.getFullYear();
 const hour = todaysdate.getHours();
 const minutes = todaysdate.getMinutes();

@@ -3,8 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+.date,aside{
+    margin: .5rem;
+    border: 1px solid black;
+    padding: .75rem;
+    background-color: pink;}
+    
 header section{
-    display: inline;
+    display: block;
 }
 header{
     display: flex;
@@ -24,3 +30,17 @@ img{
 div{
     border: 1px solid black;
 }
+.linkedLogo {
+    max-height: 30px;
+}
+nav ul{
+    list-style: none;
+}
+nav button{
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color:#555;
+}
+

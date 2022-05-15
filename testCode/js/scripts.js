@@ -1,10 +1,3 @@
-function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("open");
-}
-
-const x = document.getElementById("hamburgerBtn");
-x.onclick = toggleMenu;
-
 //Grabs the date from the DOM
 const datefield = document.querySelector(".date");
 
@@ -16,4 +9,3 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 
  //Creates date on the DOM
 datefield.innerHTML = `<em>${fulldate}</em>`;
-

@@ -40,3 +40,15 @@ nav ul {
 }
 nav ul.open{
     display: block;}
+
+.date,aside{
+    margin: .5rem;
+    border: 1px solid black;
+    padding: .75rem;
+    background-color: pink;}
+
+.date2,aside{
+    margin: .5rem;
+    border: 1px solid black;
+    padding: .75rem;
+    background-color: orange;}
