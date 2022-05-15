@@ -1,3 +1,10 @@
+function toggleMenu(){
+    document.getElementById("primaryNav").classList.toggle("open");
+}
+
+const x = document.getElementById("hamburgerBtn");
+x.onclick = toggleMenu;
+
 //Grabs the date from the DOM
 const datefield = document.querySelector(".date");
 
@@ -26,11 +33,6 @@ const todaysDate = new Date();
 const todayDateId = `${month}/${day}/${year} ${hour}:${minutes}:${seconds}`;
 document.getElementById("todayDateId").innerHTML = todayDateId;
 
-function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("open");
-}
 
-const x = document.getElementById("hamburgerBtn");
-x.onclick = toggleMenu;
 
 
