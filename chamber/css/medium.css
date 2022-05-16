@@ -6,11 +6,29 @@
         display: flex;
         margin-left: 2vw;
         border-left: 1px solid rgba(0, 0, 0, .3);
-}
+    }
     nav ul li a {
         border: none;
         border-right: 1px solid rgba(0, 0, 0, .3)
     }
 
-
+    .bodyPostion{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .date{grid-row: 2;}
+    #hero{grid-row: 3;}
+    #event{grid-row: 4;}
+    #weather{grid-row: 5;}
+    #news{grid-row: 6;}
+    #spotlight{grid-row: 7;
+    display: inline;}
+    main div section{
+        display: grid;
+        display: inline;
+        grid-template-columns: 1fr 1fr;
+    }
+    main div section:nth-child(2){
+        grid-column: 2;+
+    }
 }

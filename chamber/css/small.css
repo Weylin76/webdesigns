@@ -12,6 +12,8 @@ nav button{
 }
 nav ul{
     list-style: none;
+    background-color: black;
+    color: white;
 }
 nav ul li a:hover{
     background-color: rgba( 0, 0, 0, .5);
@@ -19,6 +21,10 @@ nav ul li a:hover{
 nav ul{
     display: none;
 } 
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
 
 nav ul.open{
     display: block;
@@ -26,35 +32,48 @@ nav ul.open{
 
 .date,aside{
     margin: .5rem;
-    border: 1px solid black;
+    /* border: 1px solid; */
     padding: .75rem;
-    background-color: pink;}
+    background-color: rgba(227, 45, 26);
+    color: white;
+}
 
 header section{
-    display: block;
+    display: inline;
+    background-color: rgba(227, 45, 26);
+    color: white;
 }
 header{
-    display: 100%;
-    /* display: flex;
-    flex-flow: row;
-    justify-content: space-evenly; */
     border: 1px solid black;
 }
 
 body{
     margin: auto;
     max-width: 800px;
-    background-color: #eee;
+    background-color: grey;
 }
 img{
-    max-width: 150px;
+    max-width: 100px;
 }
 div{
     border: 1px solid black;
+    background-color: rgba(227, 45, 26);
+    color: white;
 }
+nav{
+    display: inline;
+}
+
 .linkedLogo {
     max-height: 30px;
 }
+.wrapper{
+    display: flex;
+     flex: 1;
+    justify-content: space-evenly; 
+}
 
-
+header div section{
+    font-size: 1.8rem;
+}
 
