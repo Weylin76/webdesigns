@@ -2,6 +2,9 @@
     nav button{
         display: none;
     }
+    *{
+        padding: .1rem;
+    }
     nav ul#primaryNav {
         display: flex;
         margin-left: 2vw;
@@ -29,6 +32,20 @@
         grid-template-columns: 1fr 1fr;
     }
     main div section:nth-child(2){
-        grid-column: 2;+
+        grid-column: 2;
     }
+    .footers{
+        grid-row: 8
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: 20% 1fr 15%;
+    }
+    #primaryNav{
+        grid-column: 1/4;
+        font-size: 30px;
+    }
+    main div{
+       padding: 1rem;
+    } 
 }

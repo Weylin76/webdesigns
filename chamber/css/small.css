@@ -32,7 +32,6 @@ nav ul.open{
 
 .date,aside{
     margin: .5rem;
-    /* border: 1px solid; */
     padding: .75rem;
     background-color: rgba(227, 45, 26);
     color: white;
@@ -76,4 +75,29 @@ nav{
 header div section{
     font-size: 1.8rem;
 }
+a:hover{
+    color: rgba(227, 45, 26);
+    text-decoration: none;}
 
+h1{
+    font-family: 'Oleo Script', cursive;
+}
+.spotlight{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+}
+.footer2{
+    text-align: center;
+    background-color: black;
+}
+main div{
+    padding: .5rem;
+}
+.linkedLogofooter{
+    padding: .5rem;
+}

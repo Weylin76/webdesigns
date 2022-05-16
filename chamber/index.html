@@ -17,15 +17,16 @@
     <link rel="stylesheet" href="css/large.css">
 
 </head>
-<header class="header">
+<header>
     <div class="wrapper">
         <picture class="headerTop"><img src="images/laingsburgFunfest.png" alt="Laingsburg Home Image"></picture>
-        <section>Laingsburg Funfest</section>
+        <h1>Laingsburg Funfest</h1>
         <picture>
-            <img class="linkedLogo" class="headerTop" src="images/facebookLogo.png" alt="Facebook logo"></picture>
-        <picture>
-            <img class="linkedLogo" class="headerTop" src="images/linkedinLogo.png" alt="Facebook logo"></picture>
-        <nav>
+            <img class="linkedLogo" class="headerTop" class="facebook" src="images/facebookLogo.png"
+                alt="Facebook logo">
+            <img class="linkedLogo" class="headerTop" src="images/linkedinLogo.png" alt="linkedin logo">
+        </picture>
+        <nav class="header">
             <button id="hamburgerBtn" class="headerTop">&#9776</button>
             <ul id="primaryNav">
                 <li><a href="#">Home</a></li>
@@ -45,18 +46,24 @@
     <div id="event">Event</div>
     <div id="weather">Weather</div>
     <div id="news">News release</div>
-    <div id="spotlight">
+    <div class="spotlight">
         <section>Spotlight 1</section>
         <section>Spotlight 2</section>
-        </body>
-        <div>
-            <footer>
-                <p>&copy; 2022 | Weylin B. Douglas | Michigan</p>
-                <p>Last updated date: <span id="currentDate"></span></p>
-            </footer>
-            <footer></footer>
-        </div>
+    </div>
+    <div class="footers">
+        <footer class="footer1">
+            <picture class="linkedLogofooter"><img src="images/laingsburgFunfest.png" alt="Laingsburg Home Image">
+            </picture>
+            <h3>Laingsburg Funfest
+                <br>405 Laing Rd<br> Laingsburg, MI 48848</br>
+                <h3>Laingsburgfunfest.com <br>location map</h3>
+        </footer>
+        <footer class="footer2">
+            <p>&copy; 2022 | Weylin B. Douglas | Michigan</p>
+            <p>Last updated date: <span id="currentDate"></span></p>
+        </footer>
+    </div>
 
-        <script src="js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
 
 </html>
