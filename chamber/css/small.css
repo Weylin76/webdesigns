@@ -31,7 +31,6 @@ nav ul.open{
 }
 
 .date,aside{
-    margin: .5rem;
     padding: .75rem;
     background-color: rgba(227, 45, 26);
     color: white;
