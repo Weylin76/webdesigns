@@ -5,6 +5,7 @@
     *{
         padding: .1rem;
     }
+   
     nav ul#primaryNav {
         display: inline;
         display: grid;
@@ -54,4 +55,9 @@
     main div{
        padding: 1rem;
     } 
+    .webinfo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: pink;
+        color: pink;}
 }
