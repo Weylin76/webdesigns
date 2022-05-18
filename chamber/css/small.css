@@ -83,12 +83,14 @@ h1{
 }
 .spotlight{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 .footer1{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     background-color: black;
+    text-align: center;
+    
 }
 .footer2{
     text-align: center;
