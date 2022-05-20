@@ -35,6 +35,7 @@ button {
 }
 li button{
 	color: red;
+	font-weight: 900;
 }
 
 input {
