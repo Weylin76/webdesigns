@@ -27,14 +27,24 @@
     grid-row:5;
 }
 .footer1{
-    display: grid;
-    grid-template-columns: 20% 1fr 1fr;
+   margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+   text-align: left;
 }
-#footerLogo {
-    grid-column: 1;
-    grid-row: span 2;
+.footerRight{
+    text-align: right;
+    padding-right: 10px;
 }
-.address{
-    grid-column: 2;
+.footer2 section{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
+.footer2 div{
+    padding-left: .5rem;
 }
+.footer2 section div{
+border-right: 1px solid white;
+padding: 0 5px 0 5px;
+}}
