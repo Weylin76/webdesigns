@@ -2,18 +2,20 @@
     nav button{
         display: none;
     }
-    *{
-        padding: .1rem;
+
+    #primaryNav{
+        display: flex;
+        justify-content: space-evenly;
     }
    
-    nav ul#primaryNav {
+    /* nav ul#primaryNav {
         display: inline;
         display: grid;
         grid-template-columns: repeat(4,8rem);
         margin-left: 2rem;
         border-left: 1px solid rgba(0, 0, 0, .3);
         background-color: transparent;
-    }
+    } */
     nav ul li a {
         border: none;
         border-right: 1px solid rgba(0, 0, 0, .3);
@@ -59,10 +61,6 @@
     .wrapper{
         display: grid;
         grid-template-columns: 20% 1fr 15%;
-    }
-    #primaryNav{
-        grid-column: 1/4;
-        font-size: 30px;
     }
     main div{
        padding: 1rem;

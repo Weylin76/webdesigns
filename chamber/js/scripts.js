@@ -29,10 +29,5 @@ const date = new Date(document.lastModified);
 const currentDate = `${month}/${day}/${year} ${hour}:${minutes}:${seconds}`;
 document.getElementById("currentDate").innerHTML = currentDate;
 
-const todaysDate = new Date();
-const todayDateId = `${month}/${day}/${year} ${hour}:${minutes}:${seconds}`;
-document.getElementById("todayDateId").innerHTML = todayDateId;
-
-
 
 
