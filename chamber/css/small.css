@@ -14,11 +14,10 @@ header{
     padding: .5rem;
     background-color: rgba(227, 45, 26);
     color: white;
-    font-size: .9rem;
 }
 .wrapper{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .linkedLogo{
@@ -53,15 +52,22 @@ nav ul.open{
 }
 .date{
     text-align: center;
-    font-size: 1.3rem;
+    border: none;
+    background-color: black;
 }
 main{
     padding: .5rem;
     background-color: rgba(227, 45, 26);
     color: white;
 }
-main div{
+h2{
     border: 1px solid black;
+    padding: .5rem;
+    text-align: center;
+    min-height: 100px;
+}
+
+main div{
     padding: .5rem;
     text-align: center;
 }
@@ -79,10 +85,17 @@ footer{
     padding: .5rem;
     color: white;
     text-align: center;
-    line-height: .9;
+    line-height: 1.9rem;
     font-size: 1.1rem;
 }
 
 #footerLogo {
-    max-width: 100px;
+    max-width: 100px;;
+}
+span{
+    border: 1px solid black;
+}
+.footer1{
+    border-bottom: 1px solid white ;
+}
 }
