@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/medium2.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="images/favicon.ico">
 
@@ -21,7 +21,7 @@
 <body>
     <header>
         <div class="wrapper">
-            <picture class="headerTop"><img src="images/favicon.ico" alt="Laingsburg Home Image"></picture>
+            <picture id="favIcon"><img src="images/favicon.ico" alt="Laingsburg Home Image"></picture>
             <h1>Laingsburg Funfest</h1>
             <div>
                 <img class="linkedLogo" src="images/facebookLogo.png" alt="Facebook logo">
@@ -42,37 +42,38 @@
     </header>
 
     <main>
-        <div class="bodyPostion">
+        <div class="bodyPosition">
             <div id="hero">Hero with site name and call to action</div>
             <div id="event">Event</div>
             <div id="weather">Weather</div>
             <div id="news">News release</div>
             <div class="spotlight">
-                <section>Spotlight 1</section>
-                <hr class="line">
-                <section>Spotlight 2</section>
+                <span id="spot1">Spotlight 1</span>
+                <span id="spot2">Spotlight 2</span>
+                <span id="spot3">Spotlight 3</span>
             </div>
+            <div id="join">Join</div>
         </div>
-        <footer>
-            <div class="footer1">
-                <picture id="footerLogo"><img src="images/laingsburgFunfest.png" alt="Laingsburg Home Image">
-                </picture>
-                <div ID="adressInfo">The Chambrer of Commerce for Laingsburg</div>
-                <div>405 Laing Rd</div>
-                <div>Laingsburg, MI 48848</div>
-                <div>Laingsbrugfunfest.com</div>
-                <div>(517) 651-2500</div>
-                <div>Location map</div>
-            </div>
-            <hr class="line">
-            <div class="footer2">
-                <div>&copy; 2022 Laingsburg Funfest</div>
-                <div>Weylin Douglas</div>
-                <div>WDD 230 Project</div>
-                <p>Last updated date: <span id="currentDate"></span></p>
-            </div>
-        </footer>
     </main>
+    <footer>
+        <div class="footer1">
+            <picture><img id="footerLogo" src="images/laingsburgFunfest.png" alt="Laingsburg Home Image">
+            </picture>
+            <div ID="adressInfo">The Chambrer of Commerce for Laingsburg</div>
+            <div class="address">405 Laing Rd</div>
+            <div class="address">Laingsburg, MI 48848</div>
+            <div class="footerRight" id="website">Laingsbrugfunfest.com</div>
+            <div class="footerRight">(517) 651-2500</div>
+            <div class="footerRight">Location map</div>
+        </div>
+        <div class="footer2">
+            <div>&copy; 2022 Laingsburg Funfest</div>
+            <div>Weylin Douglas</div>
+            <div>WDD 230 Project</div>
+            <p>Last updated date: <span id="currentDate"></span></p>
+        </div>
+    </footer>
+
 </body>
 
 <script src="js/scripts.js"></script>

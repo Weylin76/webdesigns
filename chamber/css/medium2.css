@@ -1,0 +1,40 @@
+@media (min-width: 34rem){
+#join{
+    display: block;
+}
+
+.bodyPosition {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#hero{
+    grid-column: span 2;
+}
+#news{
+    grid-row: 2;
+    grid-column: span 2;
+}
+.spotlight{
+    grid-column: span 2;
+    flex-direction: row;
+}
+
+#join{
+    grid-row: 4;
+    grid-column: span 2;
+}
+#event, #weather{
+    grid-row:5;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+}
+#footerLogo {
+    grid-column: 1;
+    grid-row: span 2;
+}
+.address{
+    grid-column: 2;
+}
+}

@@ -8,6 +8,7 @@ body{
     font-size: 1.5rem;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 header{
     padding: .5rem;
@@ -62,6 +63,16 @@ main{
 main div{
     border: 1px solid black;
     padding: .5rem;
+    text-align: center;
+}
+.spotlight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#join, #spot3{
+    display: none;
 }
 footer{
     background-color: black;
@@ -72,6 +83,6 @@ footer{
     font-size: 1.1rem;
 }
 
-footer div picture img {
+#footerLogo {
     max-width: 100px;
 }
