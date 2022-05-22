@@ -25,6 +25,10 @@ div{
     padding: .5rem;
     text-align: center;
 }
+.bodyPosition {
+    border: none;
+}
+
 .wrapper{
     display: flex;
     justify-content: space-between;
