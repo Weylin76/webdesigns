@@ -23,6 +23,9 @@ header{
 .linkedLogo{
     max-width: 30px;
 }
+.logos{
+    border: none;
+}
 nav button{
     padding: 5px;
     background-color: transparent;
@@ -63,11 +66,10 @@ main{
 h1{
     font-family: 'Oleo Script', cursive;
 }
-h2{
+div{
     border: 1px solid black;
     padding: .5rem;
     text-align: center;
-    min-height: 100px;
 }
 
 main div{
@@ -94,7 +96,7 @@ main div{
     border-radius: 1rem;
     padding: 5px;
 }
-#news{
+/* #news{
     position: relative;
 }
 #news p:nth-child(1){
@@ -106,7 +108,7 @@ main div{
     position: absolute;
     top: 55px;
     left: 25px;
-}
+} */
 main img{
     max-width: 100%;
 }
@@ -124,7 +126,7 @@ footer{
     padding: .5rem;
     color: white;
     text-align: center;
-    line-height: 1.9rem;
+    line-height: .9rem;
     font-size: 1.1rem;
 }
 
