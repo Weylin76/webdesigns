@@ -57,6 +57,7 @@
     }
     #spot1, #spot2, #spot3{
         height: 150px;
+        padding: .5rem;
     }
     .footer2{
         display: flex;
