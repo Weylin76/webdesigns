@@ -3,11 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+.gridArea, .gridAreaLarge{
+    display: grid;
+    grid-gap: 15px;
+}
 
 body{
     font-size: 1.5rem;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: gray;
     
 }
 header{
@@ -15,9 +20,15 @@ header{
     background-color: rgba(227, 45, 26);
     color: white;
 }
+div{
+    border: 1px solid black;
+    padding: .5rem;
+    text-align: center;
+}
 .wrapper{
     display: flex;
     justify-content: space-between;
+    border: none;
 }
 
 .linkedLogo{
@@ -65,11 +76,6 @@ main{
 }
 h1{
     font-family: 'Oleo Script', cursive;
-}
-div{
-    border: 1px solid black;
-    padding: .5rem;
-    text-align: center;
 }
 
 main div{

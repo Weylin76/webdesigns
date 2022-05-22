@@ -2,9 +2,13 @@
     #hamburgerBtn{
         display: none;
     }
+    .gridAreaLarge{
+        display: grid;
+        grid-gap: 5px;
+    }
     .wrapper{
         display: grid;
-        grid-template-columns: 50px 420px 1fr 80px;
+        grid-template-columns: 50px 420px 1fr 100px;
     }
     .header{
         grid-column: 3;
