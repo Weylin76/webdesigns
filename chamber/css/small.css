@@ -74,6 +74,39 @@ main div{
     padding: .5rem;
     text-align: center;
 }
+#hero{
+    position: relative;
+}
+#hero p{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: black;
+    font-weight: 900;
+}
+#hero button{
+    position: absolute;
+    bottom: 5.5rem;
+    right: 25px;
+    font-family: 2rem;
+    background-color: white;
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 5px;
+}
+#news{
+    position: relative;
+}
+#news p:nth-child(1){
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+#news p:nth-child(2){
+    position: absolute;
+    top: 55px;
+    left: 25px;
+}
 main img{
     max-width: 100%;
 }
