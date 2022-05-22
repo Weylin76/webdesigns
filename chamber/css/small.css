@@ -21,7 +21,7 @@ header{
 }
 
 .linkedLogo{
-    max-width: 20px;
+    max-width: 30px;
 }
 nav button{
     padding: 5px;
@@ -60,6 +60,9 @@ main{
     background-color: rgba(227, 45, 26);
     color: white;
 }
+h1{
+    font-family: 'Oleo Script', cursive;
+}
 h2{
     border: 1px solid black;
     padding: .5rem;
@@ -90,7 +93,7 @@ footer{
 }
 
 #footerLogo {
-    max-width: 100px;;
+    max-width: 200px;
 }
 span{
     border: 1px solid black;

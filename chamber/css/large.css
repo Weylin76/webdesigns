@@ -4,7 +4,7 @@
     }
     .wrapper{
         display: grid;
-        grid-template-columns: 50px 450px 1fr 75px;
+        grid-template-columns: 50px 420px 1fr 80px;
     }
     .header{
         grid-column: 3;
@@ -13,13 +13,12 @@
     #primaryNav{
         display: block;
         background-color: transparent;
+        text-align: center;
     }
     #primaryNav li{
         display: inline;
-        padding-left: 20px;
+        padding: 0 16px 0 16px;
         background-color: black;
-        padding-right: 18px;
-
     }
     #primaryNav li:nth-child(1){
         display: none;
