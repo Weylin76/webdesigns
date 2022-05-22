@@ -74,6 +74,9 @@ main div{
     padding: .5rem;
     text-align: center;
 }
+main img{
+    max-width: 100%;
+}
 .spotlight{
     display: flex;
     flex-direction: column;
@@ -101,3 +104,4 @@ span{
 .footer1{
     border-bottom: 1px solid white ;
 }
+
