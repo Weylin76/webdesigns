@@ -51,16 +51,12 @@
     }
     .spotlight{
         grid-area: 1/4/4/5;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
-    #spot1{
-        grid-area: 1/4/2/5;
-    }
-    #spot1{
-        grid-area: 2/4/3/5;
-    }
-    #spot3{
-        grid-area: 3/4/4/5;
+    #spot1, #spot2, #spot3{
+        height: 150px;
     }
     .footer2{
         display: flex;
