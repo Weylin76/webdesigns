@@ -29,5 +29,18 @@ const date = new Date(document.lastModified);
 const currentDate = `${month}/${day}/${year} ${hour}:${minutes}:${seconds}`;
 document.getElementById("currentDate").innerHTML = currentDate;
 
+// banner js code
+document.querySelector(".bannerClose").addEventListener("click", function(){
+    this.closest(".banner").style.display = "none"
+});
 
+let bannerDay = new Date();
+
+//Need to fix code below to display on Monday or Tuesday only
+// const banner = document.getElementsByClassName(".banner");
+// if(banner.getDay() == 1 || (banner.getDay() == 2) {
+//     banner.style.display = "block";
+// }else{
+//     banner.style.display = "none"
+// }
 

@@ -38,7 +38,7 @@ div{
 .linkedLogo{
     max-width: 30px;
 }
-.logos{
+.logos, .bannerContent{
     border: none;
 }
 nav button{
@@ -138,4 +138,39 @@ span{
 .footer1{
     border-bottom: 1px solid white ;
 }
+/* starts banner css code */
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  html, body{
+      margin: 0;
+  }
+  
+  .banner{
+      background-color: #f5fc30;
+  }
+  .bannerContent{
+      padding: 16px;
+      max-width: 700px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+  }
+  .bannerText{
+      flex-grow: 1;
+      line-height: 1.4;
+  }
+  .bannerClose{
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+  }
+  
+  .bannerText, .bannerClose>span{
+      color: black;
+  }
 
