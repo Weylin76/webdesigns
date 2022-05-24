@@ -86,8 +86,10 @@ main div{
     padding: .5rem;
     text-align: center;
 }
+
 #hero{
     position: relative;
+    padding: 0;
 }
 #hero p{
     position: absolute;
