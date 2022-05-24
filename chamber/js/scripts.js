@@ -30,17 +30,17 @@ const currentDate = `${month}/${day}/${year} ${hour}:${minutes}:${seconds}`;
 document.getElementById("currentDate").innerHTML = currentDate;
 
 // banner js code
+const bannerTag = document.getElementsByClassName('banner')[0];
 
 document.querySelector(".bannerClose").addEventListener("click", function(){
-    this.closest(".banner").style.display = "none"
+    bannerTag.style.display = "none"
 });
-
 
 const bannerFunction = async () => {
     const banner = await document.getElementsByClassName('banner')[0]
     const date = new Date()
 
-    if (date.getDay() == 1 || (date.getDay()==2)) {
+    if (date.getDay() == 1 || (date.getDay() == 2)) {
         banner.style.display = "block";
     }else{
         banner.style.display = "none";
