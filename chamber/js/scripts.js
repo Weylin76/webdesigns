@@ -37,7 +37,7 @@ document.querySelector(".bannerClose").addEventListener("click", function(){
 });
 
 const bannerFunction = async () => {
-    const banner = await document.getElementsByClassName('banner')[0]
+    const banner = await document.getElementsByClassName('bannerContent')
     const date = new Date()
 
     if (date.getDay() == 1 || (date.getDay() == 2)) {
