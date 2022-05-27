@@ -57,10 +57,13 @@
             </div>
         </div>
         <div class="bodyPosition gridArea">
-            <div id="hero"><img src="images/laingsburgBanner2.jpg" alt="picture of Laingsburg">
-                <P>Welcome to Laingsburg</P>
-                <button>Join the Chamber</button>
-            </div>
+            <picture id="hero">
+                <source media="(min-width:64rem)" srcset="images/wdd230-largeview.jpg">
+                <source media="(min-width:32rem)" srcset="images/wdd230-mediumview.jpg">
+                <img src="images/wdd230-smallview.jpg" alt="people in meeting">
+                <!-- <P>Welcome to Laingsburg</P> -->
+                <!-- <button>Join the Chamber</button> -->
+            </picture>
             <div id="event">
                 <p>Ribbon Cutting</p>
                 <p>Join us for the ribbon cutting for Jet's Pizza</p>
