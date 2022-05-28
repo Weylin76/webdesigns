@@ -9,5 +9,6 @@ if (t <= 50.0 && s > 3.0) {
     document.querySelector(".wind-chill").innerHTML = Math.ceil(chillFactor)
 }
 else {
-    document.querySelector(".colored.chill").innerHTML = "N/A"
+    document.querySelector(".wind-chill-display").innerHTML = "N/A"
 }
+
