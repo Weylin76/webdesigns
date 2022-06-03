@@ -31,7 +31,7 @@
         grid-column: 4;
     }
     main{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
     #hero{
@@ -54,16 +54,16 @@
         grid-area: 3/1/4/2;
     }
     #hero{
-        grid-area: 1/2/3/4;
+        grid-area: 1/2/3/3;
     }
     #news{
-        grid-area: 3/2/4/4;
+        grid-area: 3/2/3/3;
     }
     .spotlight{
-        grid-area: 1/4/4/5;
+        grid-area: 1/3/4/4;
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+       flex-direction: column;
+        max-width: 300px;
     }
     #spot1, #spot2, #spot3{
         padding: .5rem;
