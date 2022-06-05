@@ -1,4 +1,5 @@
 @media (min-width: 34rem){
+
     #join{
         display: block;
     }
@@ -51,4 +52,98 @@
     .footer2 section div{
     border-right: 1px solid white;
     padding: 0 5px 0 5px;
-    }}
+    }
+/* ******Discover page code****** */
+
+    .discover-main-header{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /* .d{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } */
+    h2, h3{
+        grid-column: span 2;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .discover-stats{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .discover-stats img{
+        width: 100%;
+    }
+
+    .discover-pictures{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        gap: 10px;
+    }
+    #downtown{
+        position: relative;
+    }
+
+    #downtown p{
+        position: absolute;
+        top: 15px;
+        left: 35px;
+        background-color: black;
+    }
+    #fair{
+        position: relative;
+    }
+
+    #fair p{
+        position: absolute;
+        top: 15px;
+        left: 35px;
+        background: black;
+    }
+    #house{
+        position: relative;
+    }
+
+    #house p{
+        position: absolute;
+        top: 15px;
+        left: 35px;
+        background: black;
+    }
+    #lake-ovid{
+        position: relative;
+    }
+
+    #lake-ovid p{
+        position: absolute;
+        top: 15px;
+        left: 35px;
+        background: black;
+    }#school{
+        position: relative;
+    }
+
+    #school p{
+        position: absolute;
+        top: 15px;
+        left: 35px;
+        background: black;
+    }
+    #sport{
+        position: relative;
+    }
+    #sport p{
+        position: absolute;
+        top: 15px;
+        left: 35px;
+        background: black;
+    }
+    #facts{
+        grid-column: span 3;
+        text-align: center;
+    }
+}
