@@ -201,12 +201,18 @@ span{
   .main{
       display: grid;
       grid-template-columns: 1fr;
+      grid-gap: 10px;
   }
 
   .discover-pictures{
     display: flex;
     flex-direction: column;
 }
+.discover-stats p{
+    text-align: left;
+    padding: 5px;
+}
+
 
 
 
