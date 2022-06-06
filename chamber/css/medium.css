@@ -146,4 +146,6 @@
         grid-column: span 3;
         text-align: center;
     }
+    .discover-pictures img:hover 
+    {box-shadow: 0 0 25px rgb(255, 255, 0);}
 }

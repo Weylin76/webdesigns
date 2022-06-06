@@ -80,13 +80,13 @@
 /*  ***Discover CSS *** */
     .main{
         display: grid;
-        /* grid-template-columns: 1fr; */
     } 
     .discover-pictures{
         grid-column: 2;
         display: flex;
         justify-content: space-evenly;
     }
+
    .discover-stats{
        grid-column: 1;
        grid-row:1;
