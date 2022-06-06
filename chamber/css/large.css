@@ -84,7 +84,7 @@
     .discover-pictures{
         grid-column: 2;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
    .discover-stats{
