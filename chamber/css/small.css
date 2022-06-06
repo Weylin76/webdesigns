@@ -26,6 +26,14 @@ div{
     padding: .5rem;
     text-align: center;
 }
+#second-header{
+    background-color: black;
+}
+.visits, .label{
+    border: none;
+    background-color: black;
+}
+
 .bodyPosition {
     border: none;
 }
