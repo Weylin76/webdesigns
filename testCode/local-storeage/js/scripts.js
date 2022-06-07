@@ -1,6 +1,7 @@
 // initialize display elements
 const todayDisplay = document.querySelector(".today");
 const visitsDisplay = document.querySelector(".visits");
+let today2 = new Date().getTime();
 
 // get the stored value in localStorage
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
@@ -19,3 +20,7 @@ localStorage.setItem("visits-ls", numVisits);
 
 // show todays date.
 todayDisplay.textContent = Date.now();
+
+//my code
+// let distance = today2 - today;
+document.querySelector(".display").innerHTML = todayDisplay2;
