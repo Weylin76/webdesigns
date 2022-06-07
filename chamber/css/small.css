@@ -177,7 +177,7 @@ span{
     'GRAD' 0,
     'opsz' 48
   }
-  html, body{
+  html{
       margin: 0;
   }
   
@@ -206,11 +206,6 @@ span{
   }
 
   /*  ***discover page css***  */
-  .main{
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 10px;
-  }
 
   .discover-pictures{
     display: flex;

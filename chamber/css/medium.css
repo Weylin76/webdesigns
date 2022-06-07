@@ -54,15 +54,6 @@
     padding: 0 5px 0 5px;
     }
 /* ******Discover page code****** */
-
-    .discover-main-header{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    /* .d{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    } */
     h2, h3{
         grid-column: span 2;
         text-align: center;
