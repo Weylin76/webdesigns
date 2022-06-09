@@ -20,5 +20,5 @@ localStorage.setItem("visits-ls", numVisits);
 // show todays date.
 // todayDisplay.textContent = Date.now()
 const distance = parseInt(today) - parseInt(visitsDisplay)
-document.querySelector(".distance").innerHTML = 
+document.querySelector(".distance").innerHTML = visitsDisplay;
 // document.querySelector(".wind-chill").innerHTML = "N/A" 
