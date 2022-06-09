@@ -28,9 +28,7 @@ tr:nth-child(6) td:nth-child(3){
     background-color: darkblue;
     color: white;
 }
-tr:nth-child(7) td:nth-child(2){
-    grid-column: 2 span 2;
-}
+
 #black-friday{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
