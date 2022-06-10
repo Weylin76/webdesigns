@@ -1,7 +1,8 @@
 // initialize display elements const todayDisplay = document.querySelector(".today");
+const todayDisplay = document.querySelector(".today");
 const visitsDisplay = document.querySelector(".visits");
-let today = new Date();
-
+let rightNow = new Date().getTime();
+ 
 // get the stored value in localStorage
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
@@ -17,8 +18,13 @@ numVisits++;
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
 
-// show todays date.
-// todayDisplay.textContent = Date.now()
-const distance = parseInt(today) - parseInt(visitsDisplay)
-document.querySelector(".distance").innerHTML = visitsDisplay;
-// document.querySelector(".wind-chill").innerHTML = "N/A" 
+// 
+// Calculate days since last visted the page
+const lastVisited = parseInt(localStorage.getItem("visits-last"));
+const distance = rightNow - lastVisited;
+localStorage.setItem("visits-last", rightNow);
+console.log(lastVisited);
+const days = distance / 86400000;
+console.log(days);
+document.querySelector("#numDays").textContent = Math.floor(days);
+

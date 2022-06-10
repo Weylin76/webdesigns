@@ -26,7 +26,7 @@ div{
     padding: .5rem;
     text-align: center;
 }
-#second-header{
+.second-header{
     background-color: black;
 }
 .visits, .label{
@@ -55,7 +55,7 @@ nav button{
     background-color: transparent;
     border: none;
     font-size: 2rem;
-    color:#555;
+    color:#fff;
 }
 nav ul{
     list-style: none;
