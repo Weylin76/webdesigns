@@ -41,6 +41,29 @@
         <h2 class="date"></h2>
     </header>
     <main>
+        <h1>Join the Chamber of Commerce</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Basic Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Phone<input type="tel" name="phone" placeholder="123556789"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com"
+                        required></label>
+            </fieldset>
+            <fieldset>
+                <div>Membership Level</div>
+                <label class="membership"><input type="radio" name="Membership Level" value="free membership">Free
+                    Membership</label>
+                <label class="membership"><input type="radio" name="Membership Level" value="Bronze membership">Bronze
+                    Membership</label>
+                <label class="membership"><input type="radio" name="Membership Level" value="Silver membership">Silver
+                    Membership</label>
+                <label class="membership"><input type="radio" name="Membership Level" value="Gold membership">Gold
+                    Membership</label>
+            </fieldset>
+            <input type="submit" value="process membership request" class="submitBtn">
+        </form>
         <table>
             <tr id="membership-title">
                 <th>Chamber of Commerce Membership Pricing Plans</th>
