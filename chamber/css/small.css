@@ -106,6 +106,7 @@ main div{
     top: 25px;
     left: 25px;
     color: black;
+    background-color: white;
     font-weight: 900;
 }
 #hero button{
