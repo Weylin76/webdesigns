@@ -296,3 +296,8 @@ form label.top input:required:valid{
     border-left: green solid 6px;
 }
 
+/* Thank You Page */
+.thank-you-page{
+    padding-left: 1rem;
+}
+
