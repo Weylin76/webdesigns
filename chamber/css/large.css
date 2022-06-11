@@ -91,4 +91,9 @@
        flex-direction: column;
        justify-content: space-between;
    }
+
+   /* membership top alingment */
+   table{
+    margin-top: 8%;
+}
 }

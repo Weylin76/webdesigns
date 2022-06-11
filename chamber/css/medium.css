@@ -139,4 +139,20 @@
     }
     .discover-pictures img:hover 
     {box-shadow: 0 0 25px rgb(255, 255, 0);}
+
+/* join form two columns */
+#join-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
 }
+
+#join-h1{
+    grid-column: 1/3;
+    text-align: center;
+}
+table{
+    margin-top: 11%;
+}
+}
+    
