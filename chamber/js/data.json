@@ -1,0 +1,36 @@
+//id
+// name
+// img
+// comment
+{"Business information":[{
+    "id":1
+    ,"name":"Laingsburg Dinner"
+    ,"img":"xxx.jpeg"
+    ,"comment":"The finest food around."
+    },{
+    "id":2
+    ,"name":"The Doggie Day Care."
+    ,"img":"xxx.jpeg"
+    ,"comment":"Let us care for your best friend."
+    },{
+    "id":3
+    ,"name":"Preuss Pets"
+    ,"img":"xxx.jpeg"
+    ,"comment":"Get more and spend less."
+    },{
+    "id":4
+    ,"name":"Rick's Big Truck Hualing."
+    ,"img":"xxx.jpeg"
+    ,"comment":"There is nothing too big or small small for our hual!"
+    },{
+    "id":5
+    ,"name":"The Corner Store"
+    ,"img":"xxx.jpeg"
+    ,"comment":"Shop and Save with us!"
+    },{
+    "id":6
+    ,"name":"A1 Car Shop"
+    ,"img":"xxx.jpeg"
+    ,"comment":"If you are break it, we can fix it!"
+    }
+]}
