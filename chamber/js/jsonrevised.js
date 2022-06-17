@@ -24,10 +24,11 @@ function buildcards(businessList){
         h2.innerHTML = business.name;
         p.innerHTML = business.address;
         img.src = business.image;
-        img.alt = "Laingsburg business image";
+        img.alt = business.alt;
         website.innerHTML = business.website;
         membership.innerHTML = business.membershipLevel
         img.setAttribute("class","directory-images")
+        card.setAttribute("class","directory-card")
 
         card.appendChild(h2);
         card.appendChild(p);

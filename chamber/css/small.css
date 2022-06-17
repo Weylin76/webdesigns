@@ -310,4 +310,9 @@ form label.top input:required:valid{
 .directory-images{
     width: 100px ;
 }
-
+.directory-card{
+    background-color: gray;
+}
+.directory-card h2{
+    color: pink;
+}
