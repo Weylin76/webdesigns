@@ -358,9 +358,8 @@ header{
 
 .dir-list section {
     flex-direction: column;
-	justify-content: left;
     width: 100%;
-    text-align: left;
+    text-align: center;
   }
 
   
@@ -374,10 +373,7 @@ header{
   
   .dir-list p {
     display: contents;
-    text-align: center;
-    /* padding-right: 1rem;
-    margin-left: 15px;
-    color: pink; */
+    justify-content: space-between;
   }
 
   .dir-list a {
