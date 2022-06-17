@@ -1,21 +1,21 @@
 {"BusinessInformation":[{
     "id":1
-    ,"name":"Sage Market"
-    ,"address":"7400 Woodbury Road"
+    ,"name":"Ayven Grace Coffee"
+    ,"address":"750 Grand River"
     ,"phone":"517-651-6228"
-    ,"image":"https://scontent.fyip1-1.fna.fbcdn.net/v/t1.18169-9/27067684_1765206140453718_5723807848848315394_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=HGDWon95RPIAX98WFn6&_nc_ht=scontent.fyip1-1.fna&oh=00_AT8oeayVYQB5YU1txodqG-XZj54nA2kLfEGpSZGnKwk9eg&oe=62CCA47D"
-    ,"alt":"picture of Sage Market"
-    ,"website":""
+    ,"image":"https://cdn.shopify.com/s/files/1/0040/2318/9593/files/logo_290x.png?v=1645198584"
+    ,"alt":"picture of Ayven Grace Coffee"
+    ,"website":"https://ayvengraceco.com/"
     ,"membershipLevel":"Membership Level: Gold"
 
     },{
     "id":2
-    ,"name":"Central Pharmacy"
-    ,"address":"209 E. Grand River"
-    ,"phone":"517-651-1777"
-    ,"image":"https://cdn3.vectorstock.com/i/1000x1000/57/17/logo-green-cross-pharmacy-vector-6235717.jpg"
-    ,"alt":"picture of Central Pharmacy"
-    ,"website":""
+    ,"name":"Laingsburg Screw Inc"
+    ,"address":"9905 Round Lake Rd"
+    ,"phone":"517-651-5807"
+    ,"image":"https://w7.pngwing.com/pngs/872/285/png-transparent-logo-brand-screw-products-inc-font-screw-logo-label-logo-screw.png"
+    ,"alt":"picture of Laingsburg Screw Inc"
+    ,"website":"https://m.facebook.com/pages/Laingsburg-Screw/104909072908118"
     ,"membershipLevel":"Membership Level: Bronze"
  
     },{
@@ -87,5 +87,32 @@
     ,"alt":"picture of All Tech Automotive"
     ,"website":"https://www.facebook.com/All-Tech-Auto-Sales-and-Service-178465542321492/"
     ,"membershipLevel":"Membership Level: Gold"
-    }
+    },{
+        "id":10
+        ,"name":"Professional Turf & Landscape"
+        ,"address":"2611 Abbott Road"
+        ,"phone":"517-351-1884"
+        ,"image":"https://lirp.cdn-website.com/84a5c733/dms3rep/multi/opt/ProTurfLOGO-458w.jpg"
+        ,"alt":"picture of Professinal Turf & Landscape"
+        ,"website":"https://www.proturfman.com/"
+        ,"membershipLevel":"Membership Level: Gold"
+        },{
+            "id":11
+            ,"name":"Hammond Farms"
+            ,"address":"2452 Lansing Rd"
+            ,"phone":"517-228-0788"
+            ,"image":"https://yt3.ggpht.com/ytc/AKedOLRadXx5fgzvrc6bLkEQROSr0XK_i_WuWCuoZoQ2=s900-c-k-c0x00ffffff-no-rj"
+            ,"alt":"picture of Hammond Farms"
+            ,"website":"https://hammondfarms.com/"
+            ,"membershipLevel":"Membership Level: Silver"
+        },{
+            "id":11
+            ,"name":"Preuss Pets"
+            ,"address":"1127 N Cedar St"
+            ,"phone":"517-339-1762"
+            ,"image":"https://www.preusspets.com/wp-content/uploads/2020/06/periwinkle.png"
+            ,"alt":"picture of Preuss Pets"
+            ,"website":"https://www.preusspets.com/"
+            ,"membershipLevel":"Membership Level: Gold"
+            }
 ]}
