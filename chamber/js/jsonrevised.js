@@ -20,7 +20,7 @@ function buildcards(businessList){
         let img = document.createElement('img');
         let website = document.createElement('p');
         let membership = document.createElement('p');
-        let a = document.createElement('a');
+        let link = document.createElement('a');
 
         h2.innerHTML = business.name;
         address.innerHTML = business.address;
@@ -29,22 +29,22 @@ function buildcards(businessList){
         img.alt = business.alt;
         website.innerHTML = business.website;
         membership.innerHTML = business.membershipLevel
-        a.innerHTML = business.website
+        link.innerHTML = business.website
         img.setAttribute("class","directory-images")
         card.setAttribute("class","directory-card")
         website.setAttribute("class","directory-website")
+        link.setAttribute("class","directory-website")
         
         let linkText = document.createTextNode("my title text");
-        a.appendChild(linkText);
-        a.title = "my title text";
-        a.href = business.website;
-        document.body.appendChild(a);
+        link.appendChild(linkText);
+        link.href = business.website;
+        document.body.appendChild(link);
 
         card.appendChild(h2);
         card.appendChild(address);
         card.append(phone);
         card.appendChild(img);
-        card.appendChild(website);
+        card.appendChild(link);
         card.appendChild(membership);
 
         document.querySelector('div.cards').appendChild(card);
