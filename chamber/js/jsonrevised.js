@@ -33,7 +33,6 @@ function buildcards(businessList){
         img.setAttribute("class","directory-images")
         card.setAttribute("class","directory-card")
         website.setAttribute("class","directory-website")
-
         
         let linkText = document.createTextNode("my title text");
         a.appendChild(linkText);
