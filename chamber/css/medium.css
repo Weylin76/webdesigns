@@ -29,6 +29,10 @@
         grid-row: 4;
         grid-column: span 2;
     }
+    #join button a{
+        text-decoration: none;
+    }
+
     #event, #weather{
         grid-row:5;
     }
