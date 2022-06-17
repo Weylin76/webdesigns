@@ -6,27 +6,27 @@
     ,"image":"https://scontent.fyip1-1.fna.fbcdn.net/v/t1.18169-9/27067684_1765206140453718_5723807848848315394_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=HGDWon95RPIAX98WFn6&_nc_ht=scontent.fyip1-1.fna&oh=00_AT8oeayVYQB5YU1txodqG-XZj54nA2kLfEGpSZGnKwk9eg&oe=62CCA47D"
     ,"alt":"picture of Sage Market"
     ,"website":""
-    ,"membershipLevel":"Gold"
+    ,"membershipLevel":"Membership Level: Gold"
 
     },{
     "id":2
     ,"name":"Central Pharmacy"
     ,"address":"209 E. Grand River"
     ,"phone":"517-651-1777"
-    ,"image":"https://www.facebook.com/photo/?fbid=263941075436502&set=a.263941062103170&__tn"
+    ,"image":"https://cdn3.vectorstock.com/i/1000x1000/57/17/logo-green-cross-pharmacy-vector-6235717.jpg"
     ,"alt":"picture of Central Pharmacy"
     ,"website":""
-    ,"membershipLevel":"Bronze"
+    ,"membershipLevel":"Membership Level: Bronze"
  
     },{
     "id":3
     ,"name":"Leonard Best Hardware"
     ,"address":"271 E Grand River"
     ,"phone":"517-651-5477"
-    ,"image":""
+    ,"image":"https://thumbs.dreamstime.com/b/vector-logo-building-materials-store-company-201109538.jpg"
     ,"alt":"picture of Leonard Best Hardware"
     ,"website":"https://www.facebook.com/LeonardsHardware/"
-    ,"membershipLevel":"None"
+    ,"membershipLevel":"Membership Level: None"
  
     },{
     "id":4
@@ -36,7 +36,7 @@
     ,"image":"https://localrootscannabis.com/wp-content/uploads/2020/11/111820-local-roots-cannabis-local-roots-logo-temp-2.png"
     ,"alt":"picture of Local Roots Cannabis"
     ,"website":"https://localrootscannabis.com/"
-    ,"membershipLevel":"Gold"
+    ,"membershipLevel":"Membership Level: Gold"
    
     },{
     "id":5
@@ -46,7 +46,7 @@
     ,"image":"https://scontent.fyip1-1.fna.fbcdn.net/v/t39.30808-6/273273445_4679140928864902_4594176148316811004_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Ch-B7f9KVYkAX9RJLHR&_nc_ht=scontent.fyip1-1.fna&oh=00_AT942phFpfXkzyy_Sjw62Wc2yxdJZePvSLssSjkhX6Nk_Q&oe=62AC3830"
     ,"alt":"picture of Lainsburg Dairy Den"
     ,"website":"https://www.facebook.com/laingsburgdairyden/"
-    ,"membershipLevel":"Silver"
+    ,"membershipLevel":"Membership Level: Silver"
   
     },{
     "id":6
@@ -56,7 +56,7 @@
     ,"image":"https://scontent.fyip1-1.fna.fbcdn.net/v/t1.18169-9/21761684_258170481370599_818416778808349072_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=PRHBCslRoH4AX9ZYcax&_nc_ht=scontent.fyip1-1.fna&oh=00_AT-vTnceXtAxOaMORZLyQ_BN5uCmFVpOi9EdXYIsNQBI2w&oe=62CDDD19"
     ,"alt":"picture of Subway"
     ,"website":"https://www.facebook.com/Laingsburg-Subway-258170038037310/"
-    ,"membershipLevel":"Gold"
+    ,"membershipLevel":"Membership Level: Gold"
  
     },{
     "id":7
@@ -66,7 +66,7 @@
     ,"image":"http://k-13physicaltherapy.com/wp-content/uploads/2016/06/K-13-web-logo.png"
     ,"alt":"picture of K-13 PT"
     ,"website":"http://k-13physicaltherapy.com/"
-    ,"membershipLevel":"Gold"
+    ,"membershipLevel":"Membership Level: Gold"
      
         },{
     "id":8
@@ -76,7 +76,7 @@
     ,"image":"https://www.openherd.com/userPhotos/Medium/2020_637260078554204581.jpg"
     ,"alt":"picture of Peacock Road Family Farm"
     ,"website":"https://www.bookmarkalpacas.com/"
-    ,"membershipLevel":"Bronze"
+    ,"membershipLevel":"Membership Level: Bronze"
          
     },{
     "id":9
@@ -86,6 +86,6 @@
     ,"image":"https://scontent.fyip1-1.fna.fbcdn.net/v/t39.30808-6/271601663_2073197242848303_6338243755594324817_n.png?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=3jGSNUtHAX0AX9M1UF6&tn=CGpWzagFEUf1zHfs&_nc_ht=scontent.fyip1-1.fna&oh=00_AT9KulETJox9HpGqGQECsdLPV0LGxXf28z6fv8YWLnVsQQ&oe=62AC2075"
     ,"alt":"picture of All Tech Automotive"
     ,"website":"https://www.facebook.com/All-Tech-Auto-Sales-and-Service-178465542321492/"
-    ,"membershipLevel":"Gold"
+    ,"membershipLevel":"Membership Level: Gold"
     }
 ]}
