@@ -13,11 +13,29 @@ async function getbusinesses(){
 
 function buildcards(businessList){
     console.log(businessList);
-    businessList..forEach(business => { 
-        let card = document.createElement('section');
+    businessList.BusinessInformation.forEach(business => { 
+        let card = document.createElement('div');
         let h2 = document.createElement('h2');
         let p = document.createElement('p');
         let img = document.createElement('img');
+        let website = document.createElement('p');
+        let membership = document.createElement('p');
+
+        h2.innerHTML = business.name;
+        p.innerHTML = business.address;
+        img.src = business.image;
+        img.alt = "Laingsburg business image";
+        website.innerHTML = business.website;
+        membership.innerHTML = business.membershipLevel
+        img.setAttribute("class","directory-images")
+
+        card.appendChild(h2);
+        card.appendChild(p);
+        card.appendChild(img);
+        card.appendChild(website);
+        card.appendChild(membership);
+
+        document.querySelector('div.cards').appendChild(card);
 
     });
 }
