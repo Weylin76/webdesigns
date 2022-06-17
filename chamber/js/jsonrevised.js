@@ -53,3 +53,12 @@ function buildcards(businessList){
 }
 
 getbusinesses();
+
+const listView = document.querySelector('.list-view');
+const cardView = document.querySelector('.grid-view');
+
+listView.addEventListener('click', () => {cards.classList.add('dir-list')}, true);
+listView.addEventListener('click', () => {cards.classList.remove('dir-cards')}, true);
+
+cardView.addEventListener('click', () => {cards.classList.add('dir-cards')}, true)
+cardView.addEventListener('click', () => {cards.classList.remove('dir-list')}, true)

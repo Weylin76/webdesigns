@@ -352,5 +352,36 @@ header{
     padding-top: .5rem;
 }
 
+.dir-list{
+    display: inline;
+}
+
+.dir-list section {
+    flex-direction: column;
+	justify-content: left;
+    width: 100%;
+    text-align: left;
+  }
+
+  
+  .dir-list section:nth-child(even) {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .dir-list img {
+    display: none;
+  }
+  
+  .dir-list p {
+    display: contents;
+    text-align: center;
+    /* padding-right: 1rem;
+    margin-left: 15px;
+    color: pink; */
+  }
+
+  .dir-list a {
+    padding: 1rem;
+  }
 
 
