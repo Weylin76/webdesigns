@@ -13,25 +13,37 @@ async function getbusinesses(){
 
 function buildcards(businessList){
     businessList.BusinessInformation.forEach(business => { 
-        let card = document.createElement('div');
+        let card = document.createElement('section');
         let h2 = document.createElement('h2');
-        let p = document.createElement('p');
+        let address = document.createElement('p');
+        let phone = document.createElement('p');
         let img = document.createElement('img');
         let website = document.createElement('p');
         let membership = document.createElement('p');
+        let a = document.createElement('a');
 
         h2.innerHTML = business.name;
-        p.innerHTML = business.address;
+        address.innerHTML = business.address;
+        phone.innerHTML = business.phone;
         img.src = business.image;
         img.alt = business.alt;
         website.innerHTML = business.website;
         membership.innerHTML = business.membershipLevel
+        a.innerHTML = business.website
         img.setAttribute("class","directory-images")
         card.setAttribute("class","directory-card")
         website.setAttribute("class","directory-website")
 
+        
+        let linkText = document.createTextNode("my title text");
+        a.appendChild(linkText);
+        a.title = "my title text";
+        a.href = business.website;
+        document.body.appendChild(a);
+
         card.appendChild(h2);
-        card.appendChild(p);
+        card.appendChild(address);
+        card.append(phone);
         card.appendChild(img);
         card.appendChild(website);
         card.appendChild(membership);
