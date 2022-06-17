@@ -12,7 +12,6 @@ async function getbusinesses(){
 }
 
 function buildcards(businessList){
-    console.log(businessList);
     businessList.BusinessInformation.forEach(business => { 
         let card = document.createElement('div');
         let h2 = document.createElement('h2');
