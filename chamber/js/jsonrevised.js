@@ -28,6 +28,7 @@ function buildcards(businessList){
         membership.innerHTML = business.membershipLevel
         img.setAttribute("class","directory-images")
         card.setAttribute("class","directory-card")
+        website.setAttribute("class","directory-website")
 
         card.appendChild(h2);
         card.appendChild(p);

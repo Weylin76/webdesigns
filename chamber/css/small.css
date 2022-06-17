@@ -311,8 +311,12 @@ form label.top input:required:valid{
     width: 100px ;
 }
 .directory-card{
-    background-color: gray;
+    background-color: grey;
+    width: 250px;
 }
 .directory-card h2{
     color: pink;
+}
+.directory-website{
+    overflow-wrap: anywhere;
 }
