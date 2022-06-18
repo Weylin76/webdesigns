@@ -340,7 +340,6 @@ form label.top input:required:valid{
 
   .cards section{
     margin: auto;
-    gap: 1rem;
     margin-top: 1rem;
     padding: .25rem;
   }
@@ -415,6 +414,7 @@ header{
     text-decoration: none;
     font-size: 1rem;
     list-style: none;
+    overflow-wrap: break-word;
   }
 
 
