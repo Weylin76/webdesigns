@@ -75,6 +75,17 @@
         justify-content: space-between;
     }
 
+    div #join{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        /* padding-top: 50px; */
+    }
+    div #join button{
+        width: 70px;
+        /* margin: auto; */
+    }
+
 /*  ***Discover CSS *** */
     .main{
         display: grid;
