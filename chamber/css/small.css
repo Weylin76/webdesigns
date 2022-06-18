@@ -333,6 +333,7 @@ form label.top input:required:valid{
     margin: auto;
     gap: 1rem;
     margin-top: 1rem;
+    padding: .5rem;
   }
 
 .directory-website{
@@ -394,6 +395,7 @@ header{
 
   .cards a{
     color: yellow;
+    padding: .5rem;
   }
 
 

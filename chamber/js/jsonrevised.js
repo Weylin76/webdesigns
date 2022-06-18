@@ -41,18 +41,16 @@ function buildcards(businessList){
         website.setAttribute("class","directory-website")
         link.setAttribute("class","directory-website")
         
-        let linkText = document.createTextNode("my title text");
-        link.appendChild(linkText);
         link.href = business.website;
         document.body.appendChild(link);
 
         card.appendChild(h2);
+        card.appendChild(img);
         card.appendChild(address);
         card.appendChild(city);
         card.appendChild(state);
         card.appendChild(zip);
         card.append(phone);
-        card.appendChild(img);
         card.appendChild(link);
         card.appendChild(membership);
 
