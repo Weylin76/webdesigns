@@ -377,14 +377,19 @@ header{
     display: none;
   }
   
-  .dir-list p {
-    display: contents;
-    justify-content: space-between;
+  .dir-list p{
+    display: inline;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: .5rem;
+    font-size: 1rem;
   }
 
   .dir-list a {
     padding: 1rem;
     color: yellow;
+    font-size: 1rem;
   }
 
   .cards a{

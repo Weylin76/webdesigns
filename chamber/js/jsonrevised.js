@@ -16,6 +16,9 @@ function buildcards(businessList){
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let address = document.createElement('p');
+        let city = document.createElement('p');
+        let state = document.createElement('p');
+        let zip = document.createElement('p');
         let phone = document.createElement('p');
         let img = document.createElement('img');
         let website = document.createElement('p');
@@ -24,6 +27,9 @@ function buildcards(businessList){
 
         h2.innerHTML = business.name;
         address.innerHTML = business.address;
+        city.innerHTML = business.city;
+        state.innerHTML = business.state;
+        zip.innerHTML = business.zip;
         phone.innerHTML = business.phone;
         img.src = business.image;
         img.alt = business.alt;
@@ -42,6 +48,9 @@ function buildcards(businessList){
 
         card.appendChild(h2);
         card.appendChild(address);
+        card.appendChild(city);
+        card.appendChild(state);
+        card.appendChild(zip);
         card.append(phone);
         card.appendChild(img);
         card.appendChild(link);
