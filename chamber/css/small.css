@@ -321,7 +321,9 @@ form label.top input:required:valid{
     border: 1px solid black;
     border-radius: .5rem;
 }
-
+.directory-card div{
+    border: none;
+}
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
@@ -355,7 +357,7 @@ header{
     padding: .5rem 0 .5rem 0;
 }
 
-.cards p{
+.cards div{
     padding-top: .5rem;
 }
 
@@ -377,7 +379,7 @@ header{
     display: none;
   }
   
-  .dir-list p{
+  .dir-list div{
     display: inline;
     display: flexbox;
     flex-direction: column;

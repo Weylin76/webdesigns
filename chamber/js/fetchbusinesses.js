@@ -15,26 +15,23 @@ function buildcards(businessList){
     businessList.BusinessInformation.forEach(business => { 
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
-        let address = document.createElement('p');
-        let city = document.createElement('p');
-        let state = document.createElement('p');
-        let zip = document.createElement('p');
-        let phone = document.createElement('p');
+        let address = document.createElement('div');
+        let city = document.createElement('div');
+        let state = document.createElement('div');
+        let zip = document.createElement('div');
+        let phone = document.createElement('div');
         let img = document.createElement('img');
-        let website = document.createElement('p');
-        let membership = document.createElement('p');
+        let website = document.createElement('div');
+        let membership = document.createElement('div');
         let link = document.createElement('a');
 
         h2.innerHTML = business.name;
-        address.innerHTML = business.address;
-        city.innerHTML = business.city;
-        state.innerHTML = business.state;
-        zip.innerHTML = business.zip;
+        address.innerHTML = `${business.address} ${business.city} ${business.state} ${business.zip}`;
         phone.innerHTML = business.phone;
         img.src = business.image;
         img.alt = business.alt;
         website.innerHTML = business.website;
-        membership.innerHTML = business.membershipLevel
+        membership.innerHTML = `membership level: ${business.membershipLevel}`
         link.innerHTML = business.website
         img.setAttribute("class","directory-images")
         card.setAttribute("class","directory-card")
@@ -51,9 +48,6 @@ function buildcards(businessList){
         card.appendChild(h2);
         card.appendChild(img);
         card.appendChild(address);
-        card.appendChild(city);
-        card.appendChild(state);
-        card.appendChild(zip);
         card.append(phone);
         card.appendChild(link);
         card.appendChild(membership);
