@@ -70,7 +70,10 @@
     .footer2 p{
         padding-top: 10px;
     }
-
+    div .spotlight{
+        display: flex;
+        justify-content: space-between;
+    }
 
 /*  ***Discover CSS *** */
     .main{

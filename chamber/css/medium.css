@@ -29,12 +29,21 @@
         grid-row: 4;
         grid-column: span 2;
     }
+  
     #join button a{
         text-decoration: none;
     }
 
     #event, #weather{
         grid-row:5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div .spotlight{
+        display: flex;
+        justify-content: space-around;
     }
     .footer1{
        margin-top: 10px;
@@ -79,64 +88,6 @@
         grid-template-columns: 1fr 1fr;
         width: 100%;
         gap: 10px;
-    }
-    #downtown{
-        position: relative;
-    }
-
-    #downtown p{
-        position: absolute;
-        top: 15px;
-        left: 35px;
-        background-color: black;
-    }
-    #fair{
-        position: relative;
-    }
-
-    #fair p{
-        position: absolute;
-        top: 15px;
-        left: 35px;
-        background: black;
-    }
-    #house{
-        position: relative;
-    }
-
-    #house p{
-        position: absolute;
-        top: 15px;
-        left: 35px;
-        background: black;
-    }
-    #lake-ovid{
-        position: relative;
-    }
-
-    #lake-ovid p{
-        position: absolute;
-        top: 15px;
-        left: 35px;
-        background: black;
-    }#school{
-        position: relative;
-    }
-
-    #school p{
-        position: absolute;
-        top: 15px;
-        left: 35px;
-        background: black;
-    }
-    #sport{
-        position: relative;
-    }
-    #sport p{
-        position: absolute;
-        top: 15px;
-        left: 35px;
-        background: black;
     }
     #facts{
         grid-column: span 3;

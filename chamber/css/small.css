@@ -51,16 +51,18 @@ div{
     border: none;
 }
 nav button{
-    padding: 5px;
     background-color: transparent;
     border: none;
     font-size: 2rem;
     color:#fff;
+    padding-right: 2.5rem;
 }
-nav ul{
+nav ul.open{
     list-style: none;
     background-color: black;
     color: white;
+    position: absolute;
+    z-index: 1;
 }
 a:hover{
     color: rgba(227, 45, 26);
@@ -365,10 +367,15 @@ header{
     display: inline;
 }
 
-.dir-list section {
-    flex-direction: column;
+.dir-list section h2 {
+    grid-column: 1/5;
     width: 100%;
-    text-align: center;
+  }
+
+.dir-list section {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
   }
   
   .dir-list section:nth-child(even) {
@@ -380,7 +387,7 @@ header{
   }
   
   .dir-list div{
-    display: inline;
+    /* display: inline; */
     display: flexbox;
     flex-direction: column;
     justify-content: space-evenly;
@@ -393,15 +400,12 @@ header{
     grid-column: 2;
   }
 
-  .dir-list a {
-    padding: 1rem;
-    color: yellow;
-    font-size: 1rem;
-  }
-
-  .cards a{
+ .cards a{
     color: yellow;
     padding: .5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    list-style: none;
   }
 
 

@@ -26,21 +26,21 @@ function buildcards(businessList){
         let link = document.createElement('a');
 
         h2.innerHTML = business.name;
-        address.innerHTML = `${business.address} ${business.city} ${business.state} ${business.zip}`;
-        phone.innerHTML = business.phone;
+        address.innerHTML = `Address: ${business.address} ${business.city} ${business.state} ${business.zip}`;
+        phone.innerHTML = `Phone: ${business.phone}`;
         img.src = business.image;
         img.alt = business.alt;
         website.innerHTML = business.website;
-        membership.innerHTML = `membership level: ${business.membershipLevel}`
-        link.innerHTML = business.website
-        img.setAttribute("class","directory-images")
-        card.setAttribute("class","directory-card")
-        website.setAttribute("class","directory-website")
-        link.setAttribute("class","directory-website")
-        address.setAttribute("class","directory-address")
-        city.setAttribute("class","directory-address")
-        state.setAttribute("class","directory-address")
-        zip.setAttribute("class","directory-address")
+        membership.innerHTML = `Membership level: ${business.membershipLevel}`;
+        link.innerHTML = `Website ${business.website}`;
+        img.setAttribute("class","directory-images");
+        card.setAttribute("class","directory-card");
+        website.setAttribute("class","directory-website");
+        link.setAttribute("class","directory-website");
+        address.setAttribute("class","directory-address");
+        city.setAttribute("class","directory-address");
+        state.setAttribute("class","directory-address");
+        zip.setAttribute("class","directory-address");
         
         link.href = business.website;
         document.body.appendChild(link);
