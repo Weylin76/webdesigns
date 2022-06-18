@@ -40,6 +40,10 @@ function buildcards(businessList){
         card.setAttribute("class","directory-card")
         website.setAttribute("class","directory-website")
         link.setAttribute("class","directory-website")
+        address.setAttribute("class","directory-address")
+        city.setAttribute("class","directory-address")
+        state.setAttribute("class","directory-address")
+        zip.setAttribute("class","directory-address")
         
         link.href = business.website;
         document.body.appendChild(link);
