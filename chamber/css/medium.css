@@ -29,9 +29,16 @@
         grid-row: 4;
         grid-column: span 2;
     }
+    #join button{
+        width: 120px;
+        height: 50px;
+        font-size: 1.5rem;
+        border-radius: .5rem;
+    }
   
     #join button a{
         text-decoration: none;
+        color: black;
     }
 
     #event, #weather{

@@ -30,9 +30,8 @@ function buildcards(businessList){
         phone.innerHTML = `Phone: ${business.phone}`;
         img.src = business.image;
         img.alt = business.alt;
-        website.innerHTML = business.website;
         membership.innerHTML = `Membership level: ${business.membershipLevel}`;
-        link.innerHTML = `Website ${business.website}`;
+        link.innerHTML = `Website link`;
         img.setAttribute("class","directory-images");
         card.setAttribute("class","directory-card");
         website.setAttribute("class","directory-website");
@@ -41,10 +40,9 @@ function buildcards(businessList){
         city.setAttribute("class","directory-address");
         state.setAttribute("class","directory-address");
         zip.setAttribute("class","directory-address");
-        
         link.href = business.website;
+        
         document.body.appendChild(link);
-
         card.appendChild(h2);
         card.appendChild(img);
         card.appendChild(address);
