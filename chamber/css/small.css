@@ -368,7 +368,6 @@ header{
     width: 100%;
     text-align: center;
   }
-
   
   .dir-list section:nth-child(even) {
     background-color: rgb(0, 0, 0);
@@ -385,6 +384,11 @@ header{
     justify-content: space-evenly;
     padding-right: .5rem;
     font-size: 1rem;
+  }
+
+  .address{
+    display: inline;
+    grid-column: 2;
   }
 
   .dir-list a {
