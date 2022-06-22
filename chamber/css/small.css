@@ -236,6 +236,7 @@ span{
   
   .bannerText, .bannerClose>span{
       color: black;
+      padding: .5rem;
   }
 
   /*  ***discover page css***  */
@@ -423,6 +424,10 @@ header{
     justify-content: space-evenly;
     padding-right: .25rem;
     font-size: 1rem;
+  }
+
+  .grid-view, .list-view{
+    border: none;
   }
 
   .address{

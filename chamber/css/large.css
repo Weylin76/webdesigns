@@ -21,7 +21,7 @@
     }
     #primaryNav li{
         display: inline;
-        padding: 0 16px 0 16px;
+        padding: 10px;
         background-color: black;
     }
 
