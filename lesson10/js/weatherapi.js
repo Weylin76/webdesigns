@@ -6,7 +6,7 @@ fetch(URL)
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
-    document.querySelector('#current-temp').textContent = data.main.temp;
+    document.querySelector('#current-temp').textContent = data.main.temp.toFixed(0);
     const weatherIcon = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     const weatherDescription = data.weather[0].description;
     document.querySelector('#icon').setAttribute('src', weatherIcon);
@@ -15,3 +15,6 @@ fetch(URL)
     document.querySelector('figcaption').textContent = revisedWeatherDescription;
   });
  
+  // function displayResults(weatherData) {
+  //   document.querySelector("#current-temp").innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+  // }

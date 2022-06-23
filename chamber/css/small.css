@@ -331,6 +331,7 @@ form input.submitBtn{
 form label.top input:required{
     border-left: red solid 6px;
 }
+
 form label.top input:required:valid{
     border-left: green solid 6px;
 }
@@ -444,7 +445,7 @@ header{
     overflow-wrap: break-word;
   }
 
- form label.top input:required
+input:required:invalid.shake
 {
   animation: shake 0.2s ease-in-out 0s 2;
 }
@@ -455,5 +456,3 @@ header{
 75% { margin-left: -0.5rem; }
 100% { margin-left: 0rem; }
 }
-
-
