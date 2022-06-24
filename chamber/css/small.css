@@ -166,8 +166,8 @@ main img{
 #weather span{
     border: none;
 }
-#weatherLogo img{
-    width: 100px;
+#icon{
+    max-width: 100px;
 }
 #newsLogo img{
     height: 50px;

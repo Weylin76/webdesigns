@@ -1,5 +1,5 @@
-// const weatherIcon = document.querySelector('#weatherIcon');
-// const captionDesc = document.querySelector('figcaption');
+const weatherIcon = document.querySelector('#weatherIcon');
+const captionDesc = document.querySelector('figcaption');
 const URL = `https://api.openweathermap.org/data/2.5/weather?q=Laingsburg,us&units=imperial&APPID=5d177bfcfd97660efa8f1485d0796cd6`
 
 fetch(URL)
@@ -9,7 +9,7 @@ fetch(URL)
     document.querySelector('#temperature').textContent = data.main.temp.toFixed(0);
     document.querySelector('#description').innerHTML = data.weather[0].description;
     let t = (document.querySelector('#temperature').textContent);
-    document.querySelector('#wind-speed').textContent = data.wind.speed;
+    document.querySelector('#wind-speed').textContent = data.wind.speed.toFixed(0);
     let s = document.querySelector('#wind-speed').textContent;
     if (t >= 50.0 || s < 3.0) {
         document.querySelector(".wind-chill").innerHTML = "N/A" 
