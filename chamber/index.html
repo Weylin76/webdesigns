@@ -15,9 +15,10 @@
     <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="images/favicon.ico">
     <script src="js/scripts.js" defer></script>
-    <script src="js/windchill.js" defer></script>
+    <!-- <script src="js/windchill.js" defer></script> -->
     <script src="js/banner.js" defer></script>
     <script src="js/fetchBusiness.js" defer></script>
+    <script src="js/apiweather.js" defer></script>
 
 </head>
 
@@ -75,16 +76,15 @@
                     <h3>Weather Summary</h3>
                     <picture id="weatherLogo"><img src="images/weather.png" alt="weatherLogo"></picture><br>
                     <span>Currently:</span>
-                    <span class="info">Raining</span><br>
+                    <span class="info"></span><br>
                     <span>High:</span>
-                    <span class="info"><span class="temperature">
-                            25</span>&deg;F</span><br>
+                    <span class="info"><span id="temperature"></span>&deg;F</span><br>
                     <span>Wind Chill:</span>
                     <span class="wind-chill">
                     </span>&deg;F</span><br>
                     <span>Wind Speed:</span>
-                    <span class="info"><span class="wind-speed">
-                            10</span> mph</span>
+                    <span class="info"><span id="wind-speed">
+                        </span> mph</span>
                 </section>
             </div>
             <div id="news">

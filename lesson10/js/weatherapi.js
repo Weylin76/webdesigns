@@ -15,6 +15,3 @@ fetch(URL)
     document.querySelector('figcaption').textContent = revisedWeatherDescription;
   });
  
-  // function displayResults(weatherData) {
-  //   document.querySelector("#current-temp").innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-  // }
