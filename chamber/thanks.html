@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="js/scripts.js" defer></script>
     <title>Thank You Form</title>
 
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
@@ -23,17 +24,37 @@
 
 </head>
 
-<body>
+<body class="thank-you">
     <!-- HEADER HERE -->
     <header>
-        <h1 class="thank-you-page">The Chamber of Commerce for Laingsburg</h1>
+        <div class="wrapper thank-you">
+            <picture id="favIcon"><img src="images/citySVG.svg" alt="paw print"></picture>
+            <h1>Laingsburg Funfest</h1>
+            <div class="logos">
+                <a href="https://www.facebook.com/" target="_blank"><img class="linkedLogo"
+                        src="images/facebook32blue.png" alt="Facebook logo"></a>
+                <a href="https://www.linkedin.com/feed/"><img class="linkedLogo" src="images/linkedin32blue.png"
+                        alt="linkedin logo"></a>
+            </div>
+            <nav class="header">
+                <button id="hamburgerBtn" class="headerTop">&#9776;</button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h2 class="date"></h2>
     </header>
 
 
     <!-- NAVIGATION HERE -->
     <!-- CONTENT HERE -->
     <main>
-        <p class="thank-you-page">Thank you for applying to the Chamber of Commerce. Someone will process your
+        <p>Thank you for applying to the Chamber of Commerce. Someone will process your
             application
             shortly.</p>
 

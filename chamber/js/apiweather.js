@@ -5,7 +5,6 @@ const URL = `https://api.openweathermap.org/data/2.5/weather?q=Laingsburg,us&uni
 fetch(URL)
   .then((response) => response.json())
   .then((data) => {
-    console.log(data);
     document.querySelector('#temperature').textContent = data.main.temp.toFixed(0);
     document.querySelector('#description').innerHTML = data.weather[0].description;
     let t = (document.querySelector('#temperature').textContent);
@@ -22,7 +21,7 @@ fetch(URL)
     const weatherIcon = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     const captionDesc = document.querySelector('figcaption');
     document.querySelector('#icon').setAttribute('src', weatherIcon);
-    document.querySelector('#icon').setAttribute('alt', weatherDescription);
+    document.querySelector('#icon').setAttribute('alt', captionDesc);
   });
 
 

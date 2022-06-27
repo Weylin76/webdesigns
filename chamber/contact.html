@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="images/favicon.ico">
     <script src="js/scripts.js" defer></script>
+    <script src="js/join.js" defer></script>
 
 </head>
 
@@ -43,7 +44,48 @@
         <h2 class="date"></h2>
     </header>
     <main>
+        <div class="contact-grid">
+            <picture><img src="images/Tim-square.jpg" alt="Picture of Tim" class="contact-pic"></picture>
+            <p><strong>Tim Daman - President and CEO</strong> <br>
+                <br>
+                Daman oversees the Laingsburg Chamber of Commerce (LCC) team, including business development, advocacy,
+                marketing and communications, and
+                accounting and finance. Daman joined the LCC in 2005 as vice president of economic development and was
+                promoted to vice president of operations and strategic initiatives in 2007. In that position, he was
+                instrumental in developing the LCC’s International Business Services division, establishing the region’s
+                Foreign Trade Zone, and creating the LCC’s Procurement Technical Assistance Center (PTAC).</p>
 
+            <picture><img src="images/Mary-Jane.jpg" alt="Picture of Mary" class="contact-pic"></picture>
+            <p><strong>Mary Jane - Accounting and Membership Data Manager</strong><br>
+                <br>
+                Mary is the accounting and membership data manager at the LCC. She is responsible for daily accounting
+                tasks,
+                database management and compiling analytical reports.</p>
+            <picture><img src="images/Michelle-square.jpg" alt="picutre of Michelle" class="contact-pic"></picture>
+            <p><strong>Michelle Rahl - Vice President of Member Engagement</strong><br>
+                <br>
+                Michelle Rahl is the vice president of member engagement for the LCC. She oversees a motivated and
+                engaged
+                member services team responsible for onboarding new members and retaining existing members. This is
+                completed through various avenues and requires a very proactive approach to customer service and
+                engagement.
+                Rahl had previously served as the director of marketing and events, and manager of events and
+                programming.
+            </p>
+        </div>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Inquiry</legend>
+                <label class="top">First Name*<input id="fname" type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Business Name<input type="text" name="busname"></label>
+                <label class="top">Phone<input type="tel" name="phone" placeholder="123556789"></label>
+                <label class="top shake">Email*<input type="email" name="email" placeholder="someone@gmail.com"
+                        required></label>
+                <label class="top">Question or Comment*<input type="text" name="businfo" required></label>
+                <br>
+                <input type="submit" value="Submit Inquiry" class="submitBtn">
+            </fieldset>
     </main>
     <footer>
         <div class="footer1">

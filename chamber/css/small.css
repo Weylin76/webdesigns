@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.gridArea, .gridAreaLarge{
+.gridArea{
     display: grid;
     grid-gap: 15px;
 }
@@ -184,13 +184,18 @@ main img{
 #thankYouLogo img{
     height: 50px;
 }
+
+.border{
+    border: 1px solid black;
+}
+
 footer{
     background-color: black;
     padding: .5rem;
     color: white;
     text-align: center;
-    line-height: .9rem;
-    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
 }
 
 #footerLogo {
@@ -336,11 +341,6 @@ form label.top input:required:valid{
     border-left: green solid 6px;
 }
 
-/* Thank You Page */
-.thank-you-page{
-    padding-left: 1rem;
-}
-
 /* Directory CSS */
 .directory-images{
     width: 100px ;
@@ -455,4 +455,23 @@ input:required:invalid.shake
 25% { margin-left: 0.5rem; }
 75% { margin-left: -0.5rem; }
 100% { margin-left: 0rem; }
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+}
+
+.contact-pic{
+    width: 300px;
+}
+
+.contact-grid p{
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.25;
+}
+
+.thank-you{
+    background-color:  rgba(227, 45, 26);
 }
