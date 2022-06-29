@@ -127,27 +127,6 @@ main div{
 text-decoration: none;
 color: black;
 }
-/*  Moving border */
-#hero img {
-	--angle: 0deg;
-	border: .5rem solid;
-	border-image: conic-gradient(from var(--angle), red, gray, red, gray, red, gray, red) 1;
-	
-	animation: 8s rotate linear infinite;
-}
-
-@keyframes rotate {
-	to {
-		--angle: 360deg;
-	}
-}
-
-@property --angle {
-  syntax: '<angle>';
-  initial-value: 0deg;
-  inherits: false;
-}
-
 main img{
     width: 100%;
 }

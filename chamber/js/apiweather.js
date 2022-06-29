@@ -7,9 +7,9 @@ fetch(URL)
   .then((data) => {
     document.querySelector('#temperature').textContent = data.main.temp.toFixed(0);
     document.querySelector('#description').innerHTML = data.weather[0].description;
-    let t = (document.querySelector('#temperature').textContent);
+    let t = data.main.temp;
     document.querySelector('#wind-speed').textContent = data.wind.speed.toFixed(0);
-    let s = document.querySelector('#wind-speed').textContent;
+    let s = data.main.temp;
     if (t >= 50.0 || s < 3.0) {
         document.querySelector(".wind-chill").innerHTML = "N/A" 
     }
@@ -23,7 +23,3 @@ fetch(URL)
     document.querySelector('#icon').setAttribute('src', weatherIcon);
     document.querySelector('#icon').setAttribute('alt', captionDesc);
   });
-
-
-  //string[0].toUpperCase() + string.substring(1) 
-  //document.querySelector('figcaption').textContent = revisedWeatherDescription;
