@@ -5,7 +5,6 @@ reqInputs.forEach(input => {
 });
 
 function myFunction(event) {
-    console.log(event.target);
     event.target.classList.add("shake");
     setTimeout(function(){
     event.target.classList.remove("shake");
