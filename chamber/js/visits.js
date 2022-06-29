@@ -18,13 +18,10 @@ numVisits++;
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
 
-// 
 // Calculate days since last visted the page
 const lastVisited = parseInt(localStorage.getItem("visits-last"));
 const distance = rightNow - lastVisited;
 localStorage.setItem("visits-last", rightNow);
-console.log(lastVisited);
 const days = distance / 86400000;
-console.log(days);
 document.querySelector("#numDays").textContent = Math.floor(days);
 
