@@ -13,7 +13,7 @@ async function getbusinesses(){
 }
 function buildcards(info) {
     let data = info.BusinessInformation.filter((p) => p.membershipLevel == "Gold" || p.membershipLevel == "Silver");
-    for (let i = 0; i <= 5; i++) {
+    for (let i = 0; i <= 4; i++) {
       data.splice(Math.floor(Math.random() * data.length), 1);
     };
     data.forEach((business) => {
