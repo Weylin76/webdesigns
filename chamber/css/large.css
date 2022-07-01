@@ -104,4 +104,7 @@
    table{
     margin-top: 8%;
 }
+.spotlights:nth-child(3){
+    display: block;
+}
 }

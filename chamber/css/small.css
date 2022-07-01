@@ -414,3 +414,6 @@ input:required:invalid.shake
     list-style: none;
     
 }
+.spotlights:nth-child(3){
+    display: none;
+}

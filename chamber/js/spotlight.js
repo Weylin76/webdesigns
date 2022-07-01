@@ -24,7 +24,7 @@ function buildcards(info) {
         let phone = document.createElement("p");
         let membership = document.createElement("p");
 
-        card.setAttribute("class", `border spotlight`);
+        card.setAttribute("class", `border spotlights`);
         card.setAttribute('id', `spot ${num}`);
         h4.innerHTML = `${business.name}`;
         img.setAttribute("src", `${business.image}`);
