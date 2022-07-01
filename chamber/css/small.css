@@ -407,7 +407,7 @@ input:required:invalid.shake
     background-color:  rgba(227, 45, 26);
 }
 .spotlight img{
-    max-height: 150px;
+    max-width: 75px;
 }
 #map{
     color: white;
