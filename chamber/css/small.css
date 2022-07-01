@@ -409,3 +409,8 @@ input:required:invalid.shake
 .spotlight img{
     max-height: 150px;
 }
+#map{
+    color: white;
+    list-style: none;
+    
+}
