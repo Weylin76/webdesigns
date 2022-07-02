@@ -6,7 +6,6 @@ async function getbusinesses(){
     if (response.ok) {
         let businessList = await response.json();
         buildcards(businessList);
-        console.log(response);
     }else{
         throw Error(response.statusText);
     }

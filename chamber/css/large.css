@@ -20,18 +20,15 @@
         padding: 10px;
         background-color: black;
     }
-
     .logos{
         grid-column: 4;
     }
-  
     #hero{
         border: 1px solid black;
     }
     #hero img{
        height:100%;
     }
-
     #join, #spot3{
         display: block;
     }
@@ -58,8 +55,7 @@
     }
     #spot1, #spot2, #spot3{
         padding: .5rem;
-        height: 100%;
-       
+        height: 100%;  
     }
     .footer2{
         display: flex;
@@ -72,14 +68,12 @@
         display: flex;
         justify-content: space-between;
     }
-
     div #join{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
 /*  ***Discover CSS *** */
     .main{
         display: grid;
@@ -90,7 +84,6 @@
         display: flex;
         justify-content: space-between;
     }
-
    .discover-stats{
        margin-top: 40px;
        grid-column: 1;
@@ -99,7 +92,6 @@
        flex-direction: column;
        justify-content: space-between;
    }
-
    /* membership top alingment */
    table{
     margin-top: 8%;
