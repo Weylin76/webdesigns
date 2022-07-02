@@ -428,3 +428,6 @@ input:required:invalid.shake
 form{
     background-color: mintcream;
 }
+.footerRight a{
+    text-decoration: none;
+}
