@@ -111,7 +111,7 @@ main div{
     font-weight: 900;
     font-size: 1.5rem;
 }
-#hero button{
+#hero a{
     position: absolute;
     bottom: 1.5rem;
     right: 25px;
@@ -119,11 +119,10 @@ main div{
     font-size: 1rem;
     border-radius: 1rem;
     padding: 5px;
+    text-decoration: none;
+    color: black;
 }
-#hero button a{
-text-decoration: none;
-color: black;
-}
+
 main img{
     width: 100%;
 }
@@ -416,4 +415,13 @@ input:required:invalid.shake
 }
 .spotlights:nth-child(3){
     display: none;
+}
+
+#joinBtn a{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    padding: 5px;
+    text-decoration: none;
 }
