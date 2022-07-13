@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites</title>
+    <meta name="description" content="Temple Inn & Suites has many hotel locations around the world">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cantata+One&family=Encode+Sans+Condensed&family=Homemade+Apple&family=Splash&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="images/church.svg">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="js/scripts.js" defer></script>
+    <script src="js/apiweather.js" defer></script>
+    <script src="js/fetchtemples.js" defer></script>
+
+</head>
+
+<body class="gridArea">
+    <header>
+        <div class="wrapper">
+            <picture id="favIcon"><img src="images/temple icon large 100px.png" alt="church icon"></picture>
+            <h1>Temple Inn & Suites</h1>
+
+            <nav class="header">
+                <button id="hamburgerBtn" class="headerTop">&#9776;</button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="reservations.html">Reservations</li>
+                    <li><a href="contactus.html">ContactUs</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h2 class="date"></h2>
+    </header>
+    <main>
+        <div><img src="images/LDS Temple Kansas City.jpg" alt="LDS temple Kansas City" class="banner-img"></div>
+        <div class="cards"></div>
+    </main>
+    <footer>
+        <div class="footer1">
+            <hr>
+            <div id="footer-top">
+                <div class="address-info">Temple Inn & Suites<br>
+                    4800 Montgomery Ln #300<br>
+                    Bethesda, MD 20814<br>
+                    301-654-2500<br>
+                    info@templeinn.com
+                </div>
+                <section id="social">
+                    <div class="logos"><img src="images/facebook-48.png" alt="Facebook Icon"></div>
+                    <div class="logos"><img src="images/instagram-48.png" alt="Instaram Icon"></div>
+                    <div class="logos"><img src="images/youtube-48.png" alt="YouTube Icon"></div>
+                </section>
+            </div>
+        </div>
+        <hr>
+        <div class="footer2">
+            <div>
+                <div>Copyright &copy; 2022 Temple Inn & Suites .:|:. All Rights Reserved .:|:. Weylin Douglas</div>
+            </div>
+            <div id="map"><a href="https://goo.gl/maps/w46j4LQ9Rd68D6FL9" id="map">📍
+                    Location
+                    Map</a></div>
+            <p>Last updated date: <span id="currentDate"></span></p>
+        </div>
+        </div>
+    </footer>
+</body>

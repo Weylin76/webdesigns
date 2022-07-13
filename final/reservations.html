@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites</title>
+    <meta name="description" content="Temple Inn & Suites has many hotel locations around the world">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cantata+One&family=Encode+Sans+Condensed&family=Homemade+Apple&family=Splash&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="images/church.svg">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="js/scripts.js" defer></script>
+    <script src="js/shake.js"></script>
+
+</head>
+
+<body class="gridArea">
+    <header>
+        <div class="wrapper">
+            <picture id="favIcon"><img src="images/temple icon large 100px.png" alt="church icon"></picture>
+            <h1>Temple Inn & Suites</h1>
+
+            <nav class="header">
+                <button id="hamburgerBtn" class="headerTop">&#9776;</button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="reservations.html">Reservations</li>
+                    <li><a href="contactus.html">ContactUs</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h2 class="date"></h2>
+    </header>
+    <main>
+        <div><img src="images/LDS Temple Timpanogos Temple 200px.jpg" alt="LDS Temple Timpanogos" class="banner-img">
+        </div>
+        <h1 id="join-h1">Welcome to Temple Inn and Suite</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Basic Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Phone<input type="tel" name="phone" placeholder="123556789"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com"
+                        required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Booking Information</legend>
+                <select name="typeOfRoom">
+                    <option value="">Select Room Type &#9662</option>
+                    <option value="single">Single Queen</option>
+                    <option value="double">Double Queen</option>
+                    <option value="king">King Size Bed</option>
+                    <option value="suite">Suite Room</option>
+                    <option value="Presidential">Presidential
+                        Room</option>
+                </select>
+                <label class="typeOfRoom">Number of Rooms<input type="number" min="1" max="10" name="numOfRoom"></label>
+                <label class="typeOfRoom">Date of Arrival<input type="date" name="arrivalDate"></label>
+                <label class="typeOfRoom">Special Request<input type="textarea" name="special"></label>
+            </fieldset>
+            <input type="submit" value="Book your room" class="submitBtn">
+        </form>
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1550.7029660844!2d-77.09514019751897!3d38.98323095038507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1656816835408!5m2!1sen!2sus"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+        </div>
+    </main>
+    <footer>
+        <div class="footer1">
+            <hr>
+            <div id="footer-top">
+                <div class="address-info">Temple Inn & Suites<br>
+                    4800 Montgomery Ln #300<br>
+                    Bethesda, MD 20814<br>
+                    301-654-2500<br>
+                    info@templeinn.com
+                </div>
+                <section id="social">
+                    <div class="logos"><img src="images/facebook-48.png" alt="Facebook Icon"></div>
+                    <div class="logos"><img src="images/instagram-48.png" alt="Instaram Icon"></div>
+                    <div class="logos"><img src="images/youtube-48.png" alt="YouTube Icon"></div>
+                </section>
+            </div>
+        </div>
+        <hr>
+        <div class="footer2">
+            <div>
+                <div>Copyright &copy; 2022 Temple Inn & Suites .:|:. All Rights Reserved .:|:. Weylin Douglas</div>
+            </div>
+            <p>Last updated date: <span id="currentDate"></span></p>
+        </div>
+    </footer>
+</body>

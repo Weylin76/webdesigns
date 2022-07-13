@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+#favIcon img{
+    width: 50px;
+}
+/***** Nav CSS *****/
+nav button{
+    background-color: transparent;
+    border: none;
+    color:black;
+    font-size: 2.5rem;
+    padding-right:2rem;
+}
+nav ul.open{
+    list-style: none;
+    background-color: lightgrey;
+    font-size: 1rem;
+    color: black;
+    position: absolute;
+    z-index: 1;
+}
+a:hover{
+    color: yellow;
+    text-decoration: none;}
+
+nav ul{
+    display: none;
+} 
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul.open{
+    display: block;
+}
+/* End Nav CSS */
+/****** General Page CSS ******/
+.banner-img{
+    display: block;
+    width: 100%;
+}
+
+body{
+    font-size: 1.1rem;
+    margin: 0 auto;
+    background-color: lightseagreen;
+    max-width: 1200px;
+    color: black;
+    padding: 1rem;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+h1{
+    color: black;
+    font-family: 'Homemade Apple', cursive;
+    display: inline;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+main{
+    background-color: lightgrey;
+}
+h2, h3{
+    text-align: center;
+    color: black;
+    padding-right:2.4rem; 
+}
+p{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+/* End General Page CSS */
+/* Home Page CSS */
+.hotelImage{
+    padding: 1rem;
+    width: 100%;
+}
+
+.forecast p, .forecast div, .forecast img{
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+#day1, #day2, #day3{
+    display: grid;
+    display: block;
+    grid-template-columns: 3;
+    border: 1px solid black;
+}
+#btnDiv{
+    display: flex;
+    justify-content: center;
+}
+#callToAction{
+   border-radius: .5rem;
+   font-size: 1.2rem;
+   background-color: yellow;
+   padding: .5rem;
+}
+#callToAction a{
+    text-decoration: none;
+}
+#templeDiv{
+    display: flex;
+    justify-content: center;
+}
+
+#homeTemple{
+    max-width: 300px;
+}
+/****** End Home Page CSS******/
+
+/* Reservations CSS */
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend{
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: 1.2rem;
+    border: none;
+}
+form label.top input:required{
+    border-left: red solid 6px;
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: soild 1px black;
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgb(230,230,230);
+}
+
+.typeOfRoom{
+    display: block;
+    padding: .75rem 0;
+    color: black;
+}
+.typeOfRoom input{
+    display: block;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+    /****** Footer CSS ******/
+    .footer1, .footer2{
+        color: navy;
+        font-family: 'Encode Sans Condensed', sans-serif;
+    }
+    
+    #footer-top{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .address-info{
+        padding: .5rem;
+    }
+    
+    .logos{
+        grid-column: 2;
+        float: right;
+    }
+    
+    .footer2{
+        text-align: center;
+    }
+
+    #map a{
+        color:black;
+        text-decoration: none;
+    }
+    /****** Footer CSS ******/
+    /****** Services Page ******/
+    #service-grid-area{
+        padding: .5rem;
+    }
+    #service-grid-area{
+        display: grid;
+        grid-template-columns: .5fr 1fr;
+    }
+    #service-grid-area h2{
+        grid-column: span 2;
+    }
+    #service-grid-area img{
+        margin: 0 0 1rem 0rem;
+        border-radius: 1rem;
+    }
+    .serviceList{
+        margin: 2rem 0 0 2rem;
+    }
+    .servicePicture{
+        max-width: 100%;
+    }
+
+    /****** End of Services Page ******/
+
+    /****** temple cards ******/
+    .directory-card{
+        background-color: rgb(70, 70, 70);
+        width: 300px; 
+        border: 1px solid black;
+        border-radius: .5rem;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        text-align: left;
+        font-family: 'Encode Sans Condensed', sans-serif;
+      }
+      .cards h2{
+        text-align: center;
+      }
+      .cards section{
+        margin: auto;
+        margin-top: 1rem;
+        padding: 1.5rem;
+        background-color: beige;
+      }
+      .cards img{
+        width: 250px;
+      }
+
+    /****** End temple cards *******/
+
+    /****** Reservations ******/
+    #map{
+        max-width: 300px;
+        margin: 1rem;
+    }
+
+    /****** End Reservations ******/

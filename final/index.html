@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites</title>
+    <meta name="description" content="Temple Inn & Suites has many hotel locations around the world">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cantata+One&family=Encode+Sans+Condensed&family=Homemade+Apple&family=Splash&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="images/church.svg">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="js/scripts.js" defer></script>
+    <script src="js/weatherapi.js" defer></script>
+
+</head>
+
+<body class="gridArea">
+    <header>
+        <div class="wrapper">
+            <picture id="favIcon"><img src="images/temple icon large 100px.png" alt="church icon"></picture>
+            <h1>Temple Inn & Suites</h1>
+            <nav class="header">
+                <button id="hamburgerBtn" class="headerTop">&#9776;</button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="reservations.html">Reservations</li>
+                    <li><a href="contactus.html">ContactUs</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h2 class="date"></h2>
+        <div id="weather-notify"> </div>
+        <div id="weather-alert"></div>
+
+    </header>
+    <main>
+        <div><img src="images/LDS banner provo-city-center-temple.jpg" alt="LDS temple provo" class="banner-img">
+            <div id="btnDiv"><button id="callToAction"><a href="reservations.html">Reserve your get away
+                        today!</a></button></div>
+            <h2>Hotel Lobby</h2>
+            <div>
+                <img src="images/grandlobby.jpg" alt="Hotel Lobby" class="hotelImage">
+                <p> Our grand lobby is clean and ready to serve our valuable customers!
+                </p>
+            </div>
+            <h2>Basic Hotel Room.</h2>
+            <div>
+                <img src="images/basicRoom.jpg" alt="basic hotel room" class="hotelImage">
+                <p> Our basic hotel rooms always include two beds and full bathroom furnished with everything you need.
+                    We include a desk, 60-inch TV with over 100 free channels. Once you settle in you will never want to
+                    leave!</p>
+            </div>
+            <h2>Kid's Themed Hotel Room</h2>
+            <div>
+                <img src="images/KidsThemedRoom.jpg" alt="Kid's themed hotel room" class="hotelImage">
+                <p> Do you have a young family that craves excitement? Get ready for our kid’s themed rooms. This is the
+                    entertainment hub including two TV’s and PS 5 with over 20 games. Your kids will have so much fun
+                    that they will remember this experience for years to come!
+                </p>
+                <h2>Master Hotel Room</h2>
+                <div>
+                    <img src="images/masterHotelRoom.jpg" alt="Master hotel room" class="hotelImage">
+                    <p> Looking for the perfect get away with your significant other? Look no further, our Master rooms
+                        have king sized beds with luxury fabrics and a hot tub for two. Once you settle in this room you
+                        will want to stay forever!
+                    </p>
+                </div>
+                <h2>LDS Temples are not far away!</h2>
+                <div>
+                    <p>At Temple Inn and Suites our mission is the place amazing hotels around the beauiful LDS temples
+                    </p>
+                    <h3>Here is an example of some nearby temples:</h3>
+                    <picture id="templeDiv"><img src="images/sacramento_temple_lds_small.jpeg"
+                            alt="Picture of Sacramento Temple" id="homeTemple">
+                    </picture>
+                    <p>Sacramento Temple is in right in capitol of golden state of California. Not only can you do your
+                        temple work, but afterwards you can stop by the nearby distribution center to pick up your
+                        favorite church materials.</p>
+                </div>
+            </div>
+        </div>
+        <section class="weather spot">
+            <div class="current-weather">
+                <h3>Weather Currently:</h3>
+            </div>
+            <div class="forecast">
+                <h3>Forecast for the next 3 days:</h3>
+                <div class="three-day">
+                    <div id="day1">Day 1</div>
+                    <div id="day2">Day 2</div>
+                    <div id="day3">Day 3</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer1">
+            <hr>
+            <div id="footer-top">
+                <div class="address-info">Temple Inn & Suites<br>
+                    4800 Montgomery Ln #300<br>
+                    Bethesda, MD 20814<br>
+                    301-654-2500<br>
+                    info@templeinn.com
+                </div>
+                <section id="social">
+                    <div class="logos"><img src="images/facebook-48.png" alt="Facebook Icon"></div>
+                    <div class="logos"><img src="images/instagram-48.png" alt="Instaram Icon"></div>
+                    <div class="logos"><img src="images/youtube-48.png" alt="YouTube Icon"></div>
+                </section>
+            </div>
+        </div>
+        <hr>
+        <div class="footer2">
+            <div>
+                <div>Copyright &copy; 2022 Temple Inn & Suites .:|:. All Rights Reserved .:|:. Weylin Douglas</div>
+            </div>
+            <div id="map"><a href="https://goo.gl/maps/w46j4LQ9Rd68D6FL9" id="map">📍
+                    Location
+                    Map</a></div>
+            <p>Last updated date: <span id="currentDate"></span></p>
+        </div>
+        </div>
+    </footer>
+</body>
