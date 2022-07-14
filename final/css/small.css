@@ -99,6 +99,7 @@ p{
     border: 1px solid black;
 }
 #btnDiv{
+    margin:.5rem 0;
     display: flex;
     justify-content: center;
 }
@@ -111,19 +112,17 @@ p{
 #callToAction a{
     text-decoration: none;
 }
-#templeDiv{
+.center{
     display: flex;
     justify-content: center;
 }
 
-#homeTemple{
-    max-width: 300px;
-}
+
 /****** End Home Page CSS******/
 
 /* Reservations CSS */
 form fieldset{
-    margin: 2rem 0;
+    margin: .5rem;
     border: 1px solid black;
     border-radius: 10px;
     padding: .5rem 2%;
@@ -205,7 +204,7 @@ form input.submitBtn{
     .footer2{
         text-align: center;
     }
-
+ 
     #map a{
         color:black;
         text-decoration: none;
@@ -240,7 +239,7 @@ form input.submitBtn{
         background-color: rgb(70, 70, 70);
         width: 300px; 
         border: 1px solid black;
-        border-radius: .5rem;
+        border-radius: 2rem;
     }
     .cards {
         display: grid;
@@ -253,7 +252,7 @@ form input.submitBtn{
       }
       .cards section{
         margin: auto;
-        margin-top: 1rem;
+        margin: 1rem;
         padding: 1.5rem;
         background-color: beige;
       }
