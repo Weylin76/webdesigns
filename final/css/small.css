@@ -30,7 +30,7 @@ nav ul.open{
     z-index: 1;
 }
 a:hover{
-    color: yellow;
+    color: red;
     text-decoration: none;}
 
 nav ul{
