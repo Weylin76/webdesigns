@@ -72,9 +72,8 @@ main{
 }
 h2, h3{
     text-align: center;
-    color: black;
-    padding-right:2.4rem; 
-}
+    color: black; 
+} 
 p{
     padding-left: 2rem;
     padding-right: 2rem;
@@ -88,10 +87,25 @@ p{
     width: 100%;
     max-width: 600px;
 }
+.homeDiv{
+    border: 1px solid black;
+    margin: 1rem;
+    display: flex;
+    display: block;
+    align-items: center;
+    justify-self: center;
+    max-width: 100%;
+    }
+
+.homeHide{
+    display: none;
+}
 
 .forecast p, .forecast div, .forecast img{
     display: flex;
     flex-wrap: wrap;
+    padding: .5rem;
+    
 } 
 
 #day1, #day2, #day3{
@@ -118,8 +132,10 @@ p{
     display: flex;
     justify-content: center;
 }
-
-
+.current-weather{
+    border: 1px solid black;
+    margin: 1rem;
+}
 /****** End Home Page CSS******/
 
 /* Reservations CSS */
@@ -271,3 +287,12 @@ form input.submitBtn{
     }
 
     /****** End Reservations ******/
+
+    /****** Contact Us ******/
+    .contactImg{
+        border: 1px solid black;
+        width: 100%;
+        margin: 1rem;
+        max-width: 600px;
+    }
+     /****** Contact Us End ******/

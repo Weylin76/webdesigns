@@ -2,4 +2,27 @@
 h1{
     font-size: 2.0rem;
 }
+.homeHide{
+    display: block;
+}
+#gridWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.homeDiv:nth-child(5){
+    display: none;
+}
+
+.homeDiv:nth-child(6){
+    grid-column: span 2;
+}
+
+.homeDiv{
+    display: flex;
+    display: block;
+    align-items: center;
+    justify-self: center;
+    max-width: 100%;
+}
+
 }
