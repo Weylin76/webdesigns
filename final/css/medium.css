@@ -33,14 +33,13 @@ h1{
 form{
     grid-row: span 2;
 }
-/* #reservationsMap{
-    grid-row: span 2;
-} */
-
-
 /****** Reservations CSS End ******/
+/****** Recetption CSS *******/
+#recptionWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
-
-
+/****** Recetption CSS *******/
 
 }

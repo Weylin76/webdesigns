@@ -9,4 +9,16 @@
         max-width: 600px;
         margin-left: 10px;
 }
+.recHide{
+    display: block;
+}
+
+#recptionWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.recHide picture{
+    display: flex;
+    justify-content: center;
+ }
 }

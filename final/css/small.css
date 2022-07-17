@@ -317,3 +317,24 @@ form{
         max-width: 600px;
     }
      /****** Contact Us End ******/
+     /****** Reception ******/
+     #recptionWrapper div{
+        max-width: 300px;
+        place-items: center;
+     }
+   
+    #recptionWrapper picture img{
+        max-height: 150px;
+    }
+    .recDiv{
+        border: 1px solid black;
+        margin: 1rem;
+        display: grid;
+        place-items: center;
+    }
+
+    .recHide{
+        display: none;
+    }
+  
+     /****** Rececption End ******/
