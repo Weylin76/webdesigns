@@ -41,5 +41,11 @@ form{
 }
 
 /****** Recetption CSS *******/
+/****** Suite CSS  *******/
+#suiteWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/****** Suite CSS End  *******/
 
 }

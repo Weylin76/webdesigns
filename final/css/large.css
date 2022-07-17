@@ -8,17 +8,22 @@
     .homeDiv{
         max-width: 600px;
         margin-left: 10px;
-}
-.recHide{
-    display: block;
-}
+    }
+    .recHide{
+        display: block;
+    }
 
-#recptionWrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.recHide picture{
-    display: flex;
-    justify-content: center;
- }
+    #recptionWrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .recHide picture{
+        display: flex;
+        justify-content: center;
+    }
+
+    #recptionWrapper div{
+        max-width: 395px;
+    }
+
 }

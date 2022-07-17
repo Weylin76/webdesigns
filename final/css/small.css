@@ -336,5 +336,17 @@ form{
     .recHide{
         display: none;
     }
-  
      /****** Rececption End ******/
+     #suiteWrapper div{
+        max-width: 300px;
+        place-items: center;
+     }
+     #suiteWrapper picture img{
+        max-height: 150px;
+    }
+    .suiteDiv{
+        border: 1px solid black;
+        margin: 1rem;
+        display: grid;
+        place-items: center;
+    }
