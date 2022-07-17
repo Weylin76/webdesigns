@@ -24,5 +24,23 @@ h1{
     justify-self: center;
     max-width: 100%;
 }
+/****** Reservations CSS ******/
+#formWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+form{
+    grid-row: span 2;
+}
+/* #reservationsMap{
+    grid-row: span 2;
+} */
+
+
+/****** Reservations CSS End ******/
+
+
+
 
 }

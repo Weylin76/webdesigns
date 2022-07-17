@@ -144,6 +144,7 @@ form fieldset{
     border: 1px solid black;
     border-radius: 10px;
     padding: .5rem 2%;
+    max-width: 400px;
 }
 
 form legend{
@@ -199,6 +200,26 @@ form input.submitBtn{
     max-width: 20rem;
 }
 
+#formWrapper{
+    display: grid;
+}
+#formWrapper fieldset{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reservationsCenter{
+    display: block;
+    text-align: center;
+}
+
+/****** Reservations CSS End ******/
     /****** Footer CSS ******/
     .footer1, .footer2{
         color: navy;
