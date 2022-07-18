@@ -1,5 +1,4 @@
-const templeurl = 'json/temples.json';
-//const templeurl = 'https://github.com/Weylin76/wdd230/blob/main/final/json/temples.json';
+const templeurl = 'https://github.com/Weylin76/wdd230/blob/main/final/json/temples.json';
 const cards = document.querySelector('.cards');
 
 async function gettemples(){
@@ -71,4 +70,5 @@ function buildcards(templeList){
        
 
         document.querySelector('div.cards').appendChild(card);
-    })}
+    })
+}
