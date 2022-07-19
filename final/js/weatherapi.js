@@ -139,11 +139,6 @@ fetch(weatherUrl)
     forecastTwo.classList.add('forcast');
     forecastThree.classList.add('forcast');
     current.classList.add('forcast');
-    
-    threeDay.appendChild(dayOne)
-    threeDay.appendChild(dayTwo)
-    threeDay.appendChild(dayTwo)
-    threeDay.appendChild(dayThree)
   });
 
 
