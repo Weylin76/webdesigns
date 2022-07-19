@@ -6,9 +6,7 @@ async function gettemples(){
     let response = await fetch(templeurl);
     if (response.ok) {
         let templeList = await response.json();
-        console.log(templeurl);
         buildcards(templeList);
-        console.log(templeurl);
     }else{
         throw Error(response.statusText);
     }

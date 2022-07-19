@@ -114,7 +114,7 @@ p{
 #day1, #day2, #day3{
     display: grid;
     display: block;
-    grid-template-columns: 3;
+    grid-template-columns: 3fr;
     border: 1px solid black;
 }
 #btnDiv{
