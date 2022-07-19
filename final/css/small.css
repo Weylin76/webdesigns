@@ -174,7 +174,7 @@ form label.top input, form label.top select{
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
-    border: soild 1px black;
+    border: solid 1px black;
     border-radius: 4px;
     padding: .75rem;
     color: black;
@@ -339,7 +339,7 @@ form{
     .recHide{
         display: none;
     }
-     /****** Rececption End ******/
+     /***** Reception End ******/
      #suiteWrapper div{
         max-width: 300px;
         place-items: center;
