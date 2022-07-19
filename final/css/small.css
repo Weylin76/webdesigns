@@ -46,6 +46,9 @@ nav ul.open{
 }
 /* End Nav CSS */
 /****** General Page CSS ******/
+.date{
+    display:none;
+}
 .banner-img{
     display: block;
     width: 100%;

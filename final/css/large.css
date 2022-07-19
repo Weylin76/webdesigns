@@ -25,5 +25,18 @@
     #recptionWrapper div{
         max-width: 395px;
     }
+    #primaryNav{
+        display: block;
+        background-color: transparent;
+        text-align: center;
+    }
+    #hamburgerBtn{
+        display: none;
+    }
+    #primaryNav li{
+        display: inline;
+        padding: 10px;
+        background-color: lightgrey;
+    }
 
 }
