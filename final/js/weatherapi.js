@@ -19,7 +19,8 @@ fetch(weatherUrl)
     if (alerts !== undefined) {
       // Adds button to weather alert button
       const closeAlert = document.createElement('button');
-      closeAlert.textContent = String.fromCodePoint(0x00B0);
+      closeAlert.textContent = `alert: ${results.current.event}`;
+      console.log(alerts);
       weatherNotify.appendChild(closeAlert);
       // button changes display to "none";
       closeAlert.addEventListener('click', () => {weatherNotify.classList.add('remove-notify')}, true)
@@ -27,6 +28,7 @@ fetch(weatherUrl)
     // Display any alerts 
     if (alerts > 0) {
       alerts.forEach(displayAlerts);
+      
     }
 
       function displayAlerts(alerts) {
